@@ -1,0 +1,11 @@
+{
+    "autogen" : false,
+    "basescore" : 50,
+    "desc" : "<p>It appears that I've lost my keys! Maybe you can help me unlock my flag!</p>",
+    "displayname" : "Lost Keys",
+    "grader" : "xor_key_grader.py",
+    "hint" : "My name is Cameron Wong.",
+    "pid" : "TODO",
+    "threshold" : "TODO",
+    "weightmap" : "TODO"
+}
