@@ -6,6 +6,6 @@
     "grader" : "xor_key_grader.py",
     "hint" : "My name is Cameron Wong.",
     "pid" : "TODO",
-    "threshold" : "TODO",
-    "weightmap" : "TODO"
+    "threshold" : 0,
+    "weightmap" : {}
 }
