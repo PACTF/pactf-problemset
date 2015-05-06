@@ -1,0 +1,11 @@
+{
+    "autogen" : false,
+    "basescore" : 60,
+    "desc" : "<p></p>",
+    "displayname" : "Too Much Resistance",
+    "grader" : "circuit_grader.py",
+    "hint" : "If your first instinct was to google my name and/or my username, you're barking up the wrong tree!",
+    "pid" : "TODO",
+    "threshold" : 0,
+    "weightmap" : {}
+}
