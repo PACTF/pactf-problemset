@@ -1,4 +1,4 @@
 def grade(arg, key):
 	if 'FLAGFLAGFLAG' in key:
-		return True, "Guess you've read up on <i>current</i> events!"
+		return True, "Figuring that out must have really AMPed you up!"
 	else: return False, 'Nope'

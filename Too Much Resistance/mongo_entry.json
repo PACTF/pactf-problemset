@@ -1,10 +1,10 @@
 {
     "autogen" : false,
     "basescore" : 60,
-    "desc" : "<p></p>",
+    "description" : "<p>Some guy came by and dropped <a href=\"http://server_name/colors.txt\">this</a> on the ground, muttering something about current events and being discharged.</p>",
     "displayname" : "Too Much Resistance",
     "grader" : "circuit_grader.py",
-    "hint" : "If your first instinct was to google my name and/or my username, you're barking up the wrong tree!",
+    "hint" : "Well, if you can't figure it out, I guess I'll be going 'ohm...",
     "pid" : "TODO",
     "threshold" : 0,
     "weightmap" : {}
