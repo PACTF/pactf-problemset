@@ -1,0 +1,7 @@
+Yatharth brought up catastrophic backtracking as a problem idea way back
+forever ago; I think a cool problem would be to give a list of random
+characters (or random "words"!) and then a list of like, 1000 regexes,
+some of which explode and some of which don't. The flag, then, would be
+the word in the big text file that matches all 1000 regexes.
+
+- Cam
