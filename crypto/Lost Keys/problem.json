@@ -4,7 +4,7 @@
     "category" : "Crypto",
     "description" : "<p>Hey, I'm Cameron Wong. I had a flag ready for you, but it seems that it's locked away somewhere, and I've lost my keys... What I do have, though, is a <a href=\"http://server_name/door.txt\">door</a>, maybe you can try getting into that?</p>",
     "name" : "Lost Keys",
-    "grader" : "xor_key_grader.py",
+    "grader" : "crypto/Lost Keys/xor_key_grader.py",
     "hint" : "If your first instinct was to google my name and/or my username, you're barking up the wrong tree!",
     "threshold" : 0,
     "weightmap" : {}
