@@ -1,6 +1,7 @@
 {
     "autogen" : false,
     "basescore" : 40,
+    "category" : "Web",
     "description" : "<p><a href=TODO>Find the flag!</a></p>",
     "displayname" : "Unsanitary",
     "grader" : "web1_grader.py",
