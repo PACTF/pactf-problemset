@@ -1,7 +1,7 @@
 {
     "autogen" : false,
     "basescore" : 60,
-    "description" : "<p>Some guy came by and dropped <a href=\"http://server_name/colors.txt\">this</a> on the ground, muttering something about current events and being discharged.</p>",
+    "description" : "<p>Some guy came by and dropped <a href=\"/problem-static/crypto/Too Much Resistance/colors.txt\">this</a> on the ground, muttering something about current events and being discharged.</p>",
     "displayname" : "Too Much Resistance",
     "grader" : "crypto/Too Much Resistance/circuit_grader.py",
     "hint" : "Well, if you can't figure it out, I guess I'll be going 'ohm...",

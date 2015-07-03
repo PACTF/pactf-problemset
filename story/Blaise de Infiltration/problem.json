@@ -2,9 +2,9 @@
     "autogen" : false,
     "score" : 150,
     "category" : "Crypto",
-    "description" : "<p>Psst! It's the monkey. I managed to steal some data from EvilCorp, but I had to book it before they caught me, so I didn't have time to break it... At any rate, I've left the file for you <a href=\"link-to-message.txt\">here</a>, so you should take a look at it when you get the chance. They mentioned it being some kind of french cipher from the 1500s, but then they were also talking about some turkish snack food in World of Warcraft, or something... Beats me.</p>",
+    "description" : "<p>Psst! It's the monkey. I managed to steal some data from EvilCorp, but I had to book it before they caught me, so I didn't have time to break it... At any rate, I've left the file for you <a href=\"/problem-static/story/Blaise de Infiltration/message.txt\">here</a>, so you should take a look at it when you get the chance. They mentioned it being some kind of french cipher from the 1500s, but then they were also talking about some turkish snack food in World of Warcraft, or something... Beats me.</p>",
     "name" : "Blaise de Infiltration Mission",
-    "grader" : "misc/Blaise de Infiltration/book_1_grader.py",
+    "grader" : "story/Blaise de Infiltration/book_1_grader.py",
     "hint" : "What's the opposite of a Variant Beaufort?",
     "threshold" : 0,
     "weightmap" : {}
