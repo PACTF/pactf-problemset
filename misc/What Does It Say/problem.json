@@ -1,0 +1,8 @@
+  {"name": "What does it say?",
+     "score": 20,
+     "category": "Misc",
+     "grader": "misc/What Does It Say/grader.py",
+     "description": "<p><a href=\"https://revoked.grc.com/\">What does it say?</a> Special note of thanks to the great people at what?</p>",
+     "threshold": 0,
+     "weightmap": {},
+     "hint": "You have to read the webpage. What does the page say?"}
