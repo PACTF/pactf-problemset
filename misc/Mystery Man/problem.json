@@ -1,0 +1,8 @@
+  {"name": "Mystery Man",
+     "score": 50,
+     "category": "Misc",
+     "grader": "misc/Mystery Man/grader.py",
+     "description": "<p>I'm Tony Tan, and I often get weird emails. But I don't like the feels of <a href=\"/problem-static/misc/Mystery Man/email.txt\">this one</a>, and I need to know who sent it.</p>",
+     "threshold": 0,
+     "weightmap": {},
+     "hint": "I want the sender's first name, middle initial, and last name. Maybe we could figure out how he wants us to encrypt emails?"}
