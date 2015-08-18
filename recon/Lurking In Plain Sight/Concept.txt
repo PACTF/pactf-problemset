@@ -1,0 +1,3 @@
+Hidden HTTP header sent by server.
+Can be displayed using Chrome Dev Tools.
+(We need to set up a site that makes people confused, so that they don't look for the header at first.)
