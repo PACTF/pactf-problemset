@@ -1,9 +1,0 @@
- {	"name": "Wikipedia Knew",
-	"score": 20,
-	"category": "Misc",
-	"grader": "misc/Wikipedia Knew/grader.py",
-	"description": "<p>Once upon a time, <a href=\"https://en.wikipedia.org/wiki/Flag\">Wikipedia</a> knew what THE FLAG was.</p>",
-	"threshold": 0,
-	"weightmap": {},
-	"hint": "This guy from New England took Wikipedia on a roller coaster ride known as the \"Mind Eraser\"."
- }
