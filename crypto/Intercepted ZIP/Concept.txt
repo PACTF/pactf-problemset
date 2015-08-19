@@ -1,0 +1,3 @@
+A password-protected ZIP file that can be cracked using a dictionary attack.
+
+- Tony

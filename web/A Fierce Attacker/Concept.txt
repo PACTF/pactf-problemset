@@ -1,0 +1,5 @@
+A page displaying the flag is hidden under a subdomain of pactf.cf that is not given. Since one cannot guess it manually, the Fierce tool (or something similar) must be used to locate the host.
+
+http://tools.kali.org/information-gathering/fierce
+
+- Tony
