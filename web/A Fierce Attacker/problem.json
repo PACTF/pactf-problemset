@@ -1,0 +1,9 @@
+ {	"name": "A Fierce Attacker",
+	"score": 80,
+	"category": "Web",
+	"grader": "web/A Fierce Attacker/grader.py",
+	"description": "<p>Intelligence states that the flag is located on a server reachable through a subdomain of <a href=\"https://pactf.ml\">pactf.ml</a>.</p>",
+	"threshold": 0,
+	"weightmap": {},
+	"hint": "Someone fierce will be able to find the subdomain."
+ }
