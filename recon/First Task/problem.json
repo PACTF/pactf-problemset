@@ -1,0 +1,10 @@
+ {	"name": "First Task",
+	"score": 10,
+	"category": "recon",
+	"grader": "recon/First Task/grader.py",
+	"description": "<p>What is <a href=\"/problem-static/recon/First Task/first_task.jpg\">this</a>?</p>",
+	"threshold": 0,
+	"weightmap": {},
+	"hint": "If you don't know what it is, then Google would be your best friend."
+ }
+
