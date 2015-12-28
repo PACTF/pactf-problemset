@@ -1,6 +1,6 @@
 # **Repository Moved**
 
-**In order to make use of the GitHub issue tracker, this repository has been moved to [https://github.com/TonyZTan/pactf-problemset](Link URL).**
+**In order to make use of the GitHub issue tracker, this repository has been moved to [https://github.com/TonyZTan/pactf-problemset](https://github.com/TonyZTan/pactf-problemset).**
 
 **If access is not working for you, please contact Tony. Thanks!**
 
