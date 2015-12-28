@@ -2,8 +2,6 @@
 # TODO(Yatharth): Make name regex more complicated, maybe outputed from DFA like http://stackoverflow.com/a/800932/1292652
 # TODO(Yatharth): Make sure markdown 'spoilers' are enabled
 
-name: "Regex 4: Don't Look Back"
-category: programming
 description: >
 #    Congratulations! You understand the basics of regex. You will soon learn that this is a very exclusive world indeed.
 
