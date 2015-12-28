@@ -2,8 +2,9 @@
 	"score": 80,
 	"category": "Web",
 	"grader": "web/A Fierce Attacker/grader.py",
-	"description": "<p>Intelligence states that the flag is located on a server reachable through a subdomain of <a href=\"https://pactf.ml\">pactf.ml</a>.</p>",
+	"description": "<p>Intelligence states that the flag is located on a server with the domain 'pactf' in a remote African country on an secret sub-domain.  Can you find the correct sub-domain and TLD?</p>",
 	"threshold": 0,
 	"weightmap": {},
-	"hint": "Someone fierce will be able to find the subdomain."
+   	"hint": "[Here's](www.example.com) a link to some country TLDs you might want to try.",
+	"hint2": "The sub-domain is more than 10 characters long; don't try to DDoS  it. Find someone fierce instead."
  }

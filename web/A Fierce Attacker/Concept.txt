@@ -3,3 +3,7 @@ A page displaying the flag is hidden under a subdomain of pactf.cf that is not g
 http://tools.kali.org/information-gathering/fierce
 
 - Tony
+
+I'd independently thought of doing a problem where the TLD was unknown too. So we'd give them just 'jgvnekurgnekrue' or sth. We'd say the server was on some exotic island hideout, so they'd try country TLDs until they got the website. Then they would use Fierce as above.
+
+- Yatharth
