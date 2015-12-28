@@ -1,0 +1,4 @@
+description: >
+    By now, you are acquainted with the powers of regex, but can you make a regex to match only a power of 5 numbers of ‘x’s?
+hint: >
+    Take away 4/5ths of a power of 5, and you still have a power of 5.
