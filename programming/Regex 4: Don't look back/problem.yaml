@@ -1,6 +1,5 @@
 # TODO(Yatharth): Make haystack look realistic (with flag-like tool names)
 # TODO(Yatharth): Make name regex more complicated, maybe outputed from DFA like http://stackoverflow.com/a/800932/1292652
-# TODO(Yatharth): Write regex 3 about inverted character classes
 # TODO(Yatharth): Make sure markdown 'spoilers' are enabled
 
 name: "Regex 4: Don't Look Back"
@@ -27,6 +26,6 @@ description: >
 hint: >
     We weren't kidding about the file being large. You'll want to have a bit cleverer regex than Steve's for this…
 
-    >! Backtrack a bit to Regex 3 — but don't let your regex backtrack!
+    >! Backtrack a bit to learn about character classes — but don't let your regex backtrack!
 flag: zalgo_is_tony_the_pony_he_comes
 
