@@ -5,3 +5,9 @@ some of which explode and some of which don't. The flag, then, would be
 the word in the big text file that matches all 1000 regexes.
 
 - Cam
+
+I implemented the problem so you have to use inverted character classes (or atomic grouping or possessive quantifiers) instead of lazy nested quantification.
+
+It sounds like your idea could be used in a "Reverse Regex" problem, though.
+
+- Yatharth
