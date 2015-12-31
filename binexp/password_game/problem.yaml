@@ -1,0 +1,10 @@
+id: 3
+name: 'problem3'
+points: 10
+description: |
+  It's the letter matching game! You just need to change the characters of a
+  string so it matches a password! `nc [ip_addr]` to play. The source is at
+  {% static passgame.c %}.
+
+hint: |
+  What happens if you make a number that's _really_ big?
