@@ -1,0 +1,9 @@
+Export search activity from Google Correlate (or Google Trends). Competitors must find search term from it.
+
+Right now, it is the combination of two stocks: CVX and XOM.
+
+However, it could be made to just be about one keyword. Then we could make it a pool problem.
+
+Further ideas are saying "HQ in Norway" so the competitor searches in that country, not the U.S., for finding the keyword of some Scandinavian princess.
+
+- Yatharth
