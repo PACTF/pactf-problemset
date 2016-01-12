@@ -7,4 +7,4 @@ description: |
   random, so there's a hole in their program! Can you exploit it?
 
 hint: |
-  Is a hashed string _really_ random?
+  What happens if the same person plays multiple times?
