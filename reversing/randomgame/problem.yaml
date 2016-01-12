@@ -1,0 +1,10 @@
+name: 'Guessing Game'
+points: 30
+description: |
+  The evil villains have hidden their flag behind a machine that will only spit
+  it back out if you can guess a random number, how devious! However, their
+  programmer wasn't quite sure how to make _absolutely sure_ that things were
+  random, so there's a hole in their program! Can you exploit it?
+
+hint: |
+  Is a hashed string _really_ random?
