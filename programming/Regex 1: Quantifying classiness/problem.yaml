@@ -1,0 +1,10 @@
+name: "Regex 1: Quantifying Classiness"
+category: programming
+description: >
+    As
+accept:
+    - ._ ?_ !_ if _ is space and para break or capital break
+reject:
+    -
+hint: >
+    Try learning about quantification and character classes at [RegexOne](http://regexone.com)
