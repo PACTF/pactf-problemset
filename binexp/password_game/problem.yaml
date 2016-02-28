@@ -1,6 +1,6 @@
-id: 3
-name: 'problem3'
-points: 10
+id: -1
+name: 'Sliding Letter Game'
+points: 80
 description: |
   It's the letter matching game! You just need to change the characters of a
   string so it matches a password! `nc [ip_addr]` to play. The source is at
