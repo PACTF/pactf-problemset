@@ -2,16 +2,18 @@
 # TODO(Yatharth): Make name regex more complicated, maybe outputed from DFA like http://stackoverflow.com/a/800932/1292652
 # TODO(Yatharth): Make sure markdown 'spoilers' are enabled
 
-description: >
 #    Congratulations! You understand the basics of regex. You will soon learn that this is a very exclusive world indeed.
-
 #    So exclusive, in fact, that it looks that someone hid the name of secret tool to solving all of the world's problems, including parsing HTML in a large file, protected only on the assumption that no one else would be able to use the unholy regex written next to it.
-
 #    Steve's time at FlexCorp was almost up. He'd managed to stay on with the company well past when he stopped writing new code because he had made himself the only one who understood how to work with the company's Web 3.0 platform. Your job is to take over from him, but Steve's not co-operating.
-
-    You have been tasked with taking over FlexCorp's web 3.0 project as the previous lead developer, Steve, just went into retirement. Your only recourse is a large, shared CSV file in which everyone at the company had to write what tools they used on company grounds.
-
+#
 #    As you shield your eyes from the unmaintable horror, you see a little regex scrawled against Steve's desk with a little inscription reading “how to parse Web 3.0 data”.  xcitedly, you run the regex against the CSV file, and you wait, and you wait, and you wait for it to finish running but it seems like the CSV file has gotten much, much larger since the time Steve used to use his regex.
+
+name: |-
+  Regex 4: Don''t Look Back
+points: 50
+
+description: >
+    You have been tasked with taking over FlexCorp's web 3.0 project as the previous lead developer, Steve, just went into retirement. Your only recourse is a large, shared CSV file in which everyone at the company had to write what tools they used on company grounds.
 
     You know that his first name begins with an S and his last name ends with a U.
 
@@ -24,6 +26,4 @@ description: >
 hint: >
     We weren't kidding about the file being large. You'll want to have a bit cleverer regex than Steve's for this…
 
-    >! Backtrack a bit to learn about character classes — but don't let your regex backtrack!
-flag: zalgo_is_tony_the_pony_he_comes
-
+    Backtrack a bit to learn about character classes — but don't let your regex backtrack!
