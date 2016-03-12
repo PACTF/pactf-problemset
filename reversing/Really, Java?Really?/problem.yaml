@@ -1,0 +1,6 @@
+name: Java, the secure language
+points: 10
+description: |
+  Let's find the password to this wonderful mystery.
+hint: |
+  Java isn't so secure, in that compilation is not complete.
