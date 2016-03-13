@@ -1,0 +1,10 @@
+name: Compiling the Uncompilable
+points: 10
+description: >
+    RoboCorp is quite serious about security. No one person knew all of the flag — until now, when a brave agent inside the frontlines rushed to a terminal and managed to type `git merge` and send you the resulting file without being detected.
+
+    Unfortunately, when Git picked their merge markers to "not compile in any known language", they hadn't considered [Brainfuck](https://en.wikipedia.org/wiki/Brainfuck).
+
+    Your task, if you choose to accept it, is to figure out what the individual halves of the flag were before the poor strings were merged.
+hint: >
+  # TODO: write
