@@ -1,0 +1,21 @@
+Reversing
+Load flag dynamically by piecing together from memory - RE-DONE
+Pretend to be a filesystem (probably should do something like password checking) - RE-DONE
+What does this file do (program in J)???
+
+Binexp
+Canary with a hidden value that can get spilled by a faulty printf call
+Overwrite return pointer to return into char[] buffer
+Signal handling mistakes
+
+Recon
+Encode image data as sound
+Figure out what college I’m going to?
+
+Forensics
+Create a .gba file and strip the extension (displays the flag)
+Hide strings in images by hiding bits in alpha channel?
+
+Web
+Have php logging to javascript
+
