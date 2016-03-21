@@ -1,0 +1,1 @@
+Simple problem with Obj-C. It's an ios file compiled on a mac. It can be decompiled in a number of ways. The flag is hidden in an NSArray. 

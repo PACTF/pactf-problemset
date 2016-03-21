@@ -1,6 +1,15 @@
+name: |-
+  Regex 5: Oh, The Power!
+points: 110
+
+deps:
+  probs:
+    - 85e50328-2b74-45a7-bd60-d932d7890ff0
+    - e392773e-3611-4acb-8f08-7bfacc95eea3
+
 description: >
     By now, you are acquainted with the powers of regex, but can you make a regex to match only a power of 5 numbers of ‘x’s?
 hint: >
     Take away 4/5ths of a power of 5, and you still have a power of 5.
 
-    >! Consume some ‘x’s, the same number 4 times, where 5 times was the entire string, and repeat.
+    >! Consume some ‘x’s, the same number anorher 3 times, where 5 times was the entire string, and repeat.

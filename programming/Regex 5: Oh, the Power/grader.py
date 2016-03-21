@@ -7,10 +7,10 @@ import random
 
 
 
-def grade(flag, power):
-    # TODO(Yatharth): Return boolean instead of print to stdout
+def grade(key, flag):
+    power = 5
 
-    limit = 5
+    limit = 3
     upper = power**(limit-1) + 1
     powers = [power**i for i in range(limit)]
     flag = flag
@@ -20,6 +20,8 @@ def grade(flag, power):
     for i, power in enumerate(powers):
         s = 'x' * power
         print(re.match(flag, s) is not None, '\t', i)
+        if re.match(flag, s) is None:
+            return False, "You're missing at least one case."
     print()
     print()
 
@@ -32,6 +34,8 @@ def grade(flag, power):
             print("Ski", '\t', i, times)
             continue
         print(re.match(flag, s) is None, '\t', i, times)
+        if  re.match(flag, s) is not None:
+            return False, "You're missing at least one case."
 
     print()
     print()
@@ -45,8 +49,11 @@ def grade(flag, power):
         s = 'x' * i
         if re.match(flag, s) is not None:
             print(re.match(flag, s) is None, '\t', i, times, flush=True)
+            if re.match(flag, s) is not None:
+                return False, "You're missing at least one case."
 
     print()
     print()
 
     print("Done")
+    return True, "You weild The Elegant Weapon for a More Civilized Age"

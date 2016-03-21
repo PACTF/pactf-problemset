@@ -1,0 +1,6 @@
+name: Java
+points: 10
+description: |
+  Let's find the password to this [wonderful mystery]({% ctfstatic problem1.class %}).
+hint: |
+  Java isn't so secure. What if we could turn a class file back into its source somehow?
