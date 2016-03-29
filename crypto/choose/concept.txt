@@ -1,5 +1,0 @@
-Use a chosen-ciphertext attack on RSA encryption. Setup some web server that
-sends back decrypted strings (but not the flag!) and use those to determine
-the original message.
-
-http://crypto.stackexchange.com/questions/2323/how-does-a-chosen-plaintext-attack-on-rsa-work
