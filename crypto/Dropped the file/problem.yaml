@@ -1,4 +1,4 @@
 name: Dropped the file!
 points: 10
-description: Ah! Noo! I dropped my file!! It's all scrambled now!
+description: Ah! Noo! I dropped my file!! It's all scrambled now! Can you help me fix it? I left something in there for you! [whoops!]({% ctflexstatic 'Dropped a file!!.dmg' %})
 hint: Is this corrupted, damn!
