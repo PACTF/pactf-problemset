@@ -1,5 +1,5 @@
 def grade(key, flag):
     if flag == 'qwertyisfornoobsdvorakdrools':
-        return True, "You have found the way."
+        return True, "You found the keys!"
     else:
-        return False, "Incorrect. Have you tried being more obscure?"
+        return False, "Incorrect. The keys are everywhere!"
