@@ -1,0 +1,18 @@
+I took this script:
+
+  function bb(p)
+  { f = "flag{" + p + "}"; alert("How deep does this rabbit hole go?"); }
+  bb("carroll_knew_it");
+
+And I passed it through:
+
+1. https://javascriptobfuscator.com/Javascript-Obfuscator.aspx
+1. http://www.jsfuck.com/
+
+To undo #2, take off the final two parens and eval in a console. Then, it's easy enough to hand-undo #1.
+
+Reference:
+
+- http://patriciopalladino.com/files/hieroglyphy/
+- http://jsbeautifier.org/
+- http://codegolf.stackexchange.com/questions/28714/convert-jsfuck-to-normal-js
