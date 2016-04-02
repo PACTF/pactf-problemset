@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
+from secretkey import secret_func
+
 import math
 
 def s(f, x, precision=3):
@@ -15,9 +17,8 @@ def encrypt(f, a, m):
     x = (y1-y0 + s0*a - s1*m)/(s0-s1)
     return (x, s1*(x-m) + y1)
 
-f = lambda x: math.sin(x * math.pi/127)
 a = -9/4 * math.pi
 
 l = input("What is the message? ")
 for c in map(ord, l):
-    print(encrypt(f, a, c))
+    print(encrypt(secret_func, a, c))

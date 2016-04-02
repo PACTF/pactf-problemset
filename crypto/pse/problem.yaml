@@ -1,10 +1,10 @@
 name: 'Point-Slope Encryption'
 points: 60
 description: |
-  We found a bunch of [weird numbers]({% ctflexstatic 'points.txt' %}) that we're
-  pretty sure is an encrypted message. There was also
-  [this script]({% ctflexstatic 'encrypt.py' %}) lying around near it, but we don't
-  know how it works. Can you help us?
+  We uncovered these [weird numbers]({% ctflexstatic 'points.txt' %}) from
+  Dr. Miles' secret folder, but we don't know what to do with it! Can you help
+  us? We also found [this script]({% ctflexstatic 'encrypt.py' %}) and
+  [this data]({% ctflexstatic 'handout.txt' %}) in the same place, if it helps.
 
 hint: |
-  That 's' function looks awfully familiar...
+  That 's' function seems like it does something familiar...
