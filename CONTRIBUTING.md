@@ -6,7 +6,7 @@ The purpose of this contributor agreement ("Agreement") is to clarify and docume
 ## 1. DEFINITIONS
 *"You"* means the Individual Copyright owner who submits a Contribution to Us.
 
-*"Contribution"* means any original work of authorship (software and/or documentation) including any modifications or additions to an existing work, Submitted by You to Us, in which You own the Copyright. If You do not own the Copyright in the entire work of authorship, please contact Us at techmasters@andover.edu.
+*"Contribution"* means any original work of authorship (software and/or documentation) including any modifications or additions to an existing work, Submitted by You to Us, in which You own the Copyright. If You do not own the Copyright in the entire work of authorship, please contact Us at contact@pactf.com.
 
 *"Copyright"* means all rights protecting works of authorship owned or controlled by You, including copyright, moral and neighboring rights, as appropriate, for the full term of their existence including any extensions by You.
 
