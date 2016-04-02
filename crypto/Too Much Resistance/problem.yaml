@@ -1,4 +1,4 @@
 name: Too Much Resistance
-points: 30
+points: 40
 description: Black, blue, red, white!!! AHHHH! TOO MANY [COLORS!]({% ctflexstatic 'colors.txt' %})!
 hint: What could they possibly mean?
