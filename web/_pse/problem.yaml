@@ -1,0 +1,10 @@
+name: 'Point-Slope Encryption'
+points: 60
+description: |
+  We found a bunch of [weird numbers]({% ctfstatic points.txt %}) that we're
+  pretty sure is an encrypted message. There was also
+  [this script]({% ctfstatic encrypt.py %}) lying around near it, but we don't
+  know how it works. Can you help us?
+
+hint: |
+  That 's' function looks awfully familiar...

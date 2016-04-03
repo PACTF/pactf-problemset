@@ -1,0 +1,5 @@
+A password-protected ZIP file that can be cracked using a dictionary attack.
+
+(Password to ZIP file is 'soylamejor', chosen from the famous "rockyou" password list/dictionary.)
+
+- Tony

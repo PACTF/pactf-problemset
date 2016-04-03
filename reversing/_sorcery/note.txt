@@ -1,0 +1,5 @@
+The concept for this problem is that it searches its own memory space for the ascii
+values of the flag. How exactly this will be done I haven't quite figured out yet
+(I was hardcoding it, but it didn't work for some reason...).
+
+- Cam

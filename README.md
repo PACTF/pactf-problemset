@@ -1,11 +1,10 @@
-# PACTF Problem Set
+# PACTF Problem Set 2016
+This repository contains the 2016 PACTF problem set.
 
-## **Repository Moved**
+You must agree to the 'Confidentiality Warning' and the 'Contributor Agreement', as specified below. Otherwise, you must immediately remove your access to this repository, destroy all copies of information obtained from this repository, and notify us immediately at contact@pactf.com.
 
-**In order to make use of the GitHub issue tracker, this repository has been moved to [https://github.com/TonyZTan/pactf-problemset](https://github.com/TonyZTan/pactf-problemset).**
+## Confidentiality Warning
+This repository contains confidential and proprietary information. The unauthorized possession, use, reproduction, distribution, display or disclosure of material in this repository is prohibited. The information contained in this repository should not be disclosed or reproduced in whole or in part, except as part of the PACTF.com website for the sole purpose of facilitating the necessary operations of the PACTF competition.
 
-**If access is not working for you, please contact Tony. Thanks!**
-
-## Storybook?
-
-I have no ideas on how to make the contest super legit on a meta level, but I want to draw inspiration from pythonchallenge and make a set of sequential problems that build off each other. Specifically, you'll want to keep track of stuff from problems 1-5 to tackle problem 6 (etc). I'm thinking to put these under a separate category and make a warning "YOU WILL NEED TO HANG ON TO EVERYTHING YOU GET HERE", and unlock them as the previous is completed. IDK, is this just a shitty idea? — Cam
+## Contributing
+By contributing to this repository, you understand and fully accept our [Contributor Agreement](CONTRIBUTING.md).

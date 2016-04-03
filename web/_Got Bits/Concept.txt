@@ -1,0 +1,8 @@
+Problem name: Got Bits?
+
+Similar to "Not-So-Random Randomness", we generate a weak public/private keypair, but this time the key is weak because it doesn't have enough bits. (Only 256 or 512, which is very weak of asymmetric crypto.) To get the flag the public key must be factored and then the private key must be obtained.
+
+https://blog.benjojo.co.uk/post/auditing-github-users-keys
+https://factorable.net/
+
+- Tony
