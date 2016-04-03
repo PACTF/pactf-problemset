@@ -1,0 +1,3 @@
+use a chosen-plaintext attack on textbook RSA
+
+uses PyCrypto library ("pip install pycrypto")

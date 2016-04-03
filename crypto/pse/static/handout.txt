@@ -1,2 +1,2 @@
 f(a) = -65.50409525102073
-df/dx = 13/(12cosx + 5sinx)
+df/dx = 1651/(12pi * cosx + 5pi * sinx)
