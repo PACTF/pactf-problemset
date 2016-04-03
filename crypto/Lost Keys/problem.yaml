@@ -1,4 +1,7 @@
 name: Lost Keys
 points: 50
 description: Hey, I'm Cameron Wong. I had a flag ready for you, but it seems that it's locked away somewhere, and I've lost my keys... What I do have, though, is a [door]({% ctflexstatic 'door.txt' %}), maybe you can try getting into that?
-hint: If your first instinct was to google my name and/or my username, you're barking up the wrong tree!
+hint: |
+  If your first instinct was to google my name and/or my username, you're
+  barking up the wrong tree! I'm way more narcissistic than that! Also, I hate
+  typing spaces in keys, that's just annoying.
