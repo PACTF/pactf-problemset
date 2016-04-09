@@ -1,8 +1,0 @@
-name: |-
-  Regex 1: Quantifying Classiness
-points: 10
-
-description: >
-    Joe wants to know: He can be a bit dramatic with his punctutation, but does he ever repeat it 23 times? Can you help him write a regex that matches 13 characters each of which is ''.'', ''!'' or ''?''?
-hint: >
-    Try learning about quantification and character classes at [RegexOne](http://regexone.com)
