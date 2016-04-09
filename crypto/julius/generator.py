@@ -1,4 +1,4 @@
-import string
+import string, random
 
 plaintext = (
     "'Jedi' is just 'Monk' in ROT13, isn't it? "
