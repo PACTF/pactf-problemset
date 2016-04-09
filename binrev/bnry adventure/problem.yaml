@@ -1,8 +1,0 @@
-name: 'Foolish Filesystem'
-points: 50
-description: |
-  You found an [interesting program]({% ctflexstatic adventure %}) on the floor...
-  wonder what it is?
-
-hint: |
-  What is a directory? A miserable little pile of hidden files!

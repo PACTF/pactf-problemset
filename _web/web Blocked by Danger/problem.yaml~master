@@ -1,0 +1,9 @@
+name: Blocked by Danger
+points: 50
+
+description: >
+    The programmers at RoboCorp take security very seriously. Their managers don't seem to, though, because intelligence recently changed their cursor icon in exchange for a manager's login credentials: "John Appleseed" and  "neVaGuessTh1sPasswrd".
+
+    The problem is: Someone at RoboCorp messed up their serious security, and now _noone_ can access [their website](https://example.com). Can you get to their login page and use intelligence's credentials?
+hint: >
+    What is there to protect blocks.

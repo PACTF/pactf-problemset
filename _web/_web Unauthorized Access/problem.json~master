@@ -1,0 +1,9 @@
+ {	"name": "Unauthorized Access",
+	"score": 40,
+	"category": "Web",
+	"grader": "web/Unauthorized Access/grader.py",
+	"description": "<p>Get us <a href=\"https://unauthorized.pactf.cf\">authorized</a>.</p>",
+	"threshold": 0,
+	"weightmap": {},
+	"hint": "Can you change who you are?"
+ }
