@@ -27,4 +27,4 @@ def generate(key):
     random.seed(key)
     n = random.randint(1, 25)
     msg = plaintext % randword(8)
-    return msg, "Et tu, Brute?"
+    return encrypt(msg), "Et tu, Brute?"
