@@ -1,4 +1,4 @@
 name: Intercepted ZIP
-points: 17
+points: 20
 description: We intercepted [a ZIP file]({% ctflexstatic 'intercepted.zip' %}) that looks important.
 hint: You may need to crack the password. But try to make the guesses educated, okay?
