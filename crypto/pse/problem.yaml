@@ -1,5 +1,5 @@
 name: 'Point-Slope Encryption'
-points: 60
+points: 80
 description: |
   We uncovered these [weird numbers]({% ctflexstatic 'points.txt' %}) from
   Dr. Miles' secret folder, but we don't know what to do with it! Can you help
