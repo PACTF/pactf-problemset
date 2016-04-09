@@ -1,3 +1,4 @@
+import random
 plaintext = (
     "'Jedi' is just 'Monk' in ROT13, isn't it? "
     "Wait, no, that's 'Zbax'. Also, the flag is "
