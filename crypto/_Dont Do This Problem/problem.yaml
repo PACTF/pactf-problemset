@@ -1,4 +1,4 @@
 name: Dont Do This Problem
 points: -10
-description: <p><a href=\"about:blank\">Nothing</a> <a href=\"http://important.io\">important</a> <a href=\"https://here.com\">here.</a></p>
-hint: The flag is not the flag. At least it seems that way.
+description: '[Nothing](http://about:blank) [important](http://important.io/) [here](https://here.com).'
+hint: 'The flag is *not the flag*. At least it seems that way.'
