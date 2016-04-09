@@ -3,7 +3,7 @@ import string, random
 plaintext = (
     "'Jedi' is just 'Monk' in ROT13, isn't it? "
     "Wait, no, that's 'Zbax'. Also, the flag is "
-    "just_a_warmup{%s}"
+    "just\_a\_warmup{%s}"
 )
 
 def randword(length):
