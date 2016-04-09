@@ -1,4 +1,4 @@
 name: Stegono-saurus
 points: 15
-description: RAWR! No, just kidding. Let's get down and read some great sociology. [A fascinating read in sociology]({% ctflexstatic 'Steg.txt' %})
+description: "RAWR! No, just kidding. Let's get down and read some great sociology. [A fascinating read in sociology]({% ctflexstatic 'Steg.txt' %})"
 hint: Wait!! Is that a mistake there?
