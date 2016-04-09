@@ -1,0 +1,1 @@
+This is a disk image filled with random files, but there was a fake overwrite error in which a photoshop file was superimposed onto the disk image. That file needs to be taken out. That file on first inspection also looks completely white, but there is a one pixel discoloration that describes the flag.

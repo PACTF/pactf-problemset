@@ -1,0 +1,1 @@
+This problem has an encrypted flag, that uses an incredibly bad algorithm that I just cooked up. It does have some information reduction, so some brute force is necessary. In order to solve, one would need to reverse engineer the encryption algorithm, really understand it, than use it to decrypt.
