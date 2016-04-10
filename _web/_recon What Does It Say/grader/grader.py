@@ -1,5 +1,5 @@
     def grade(arg, key):
         if "Digicert" in key:
-            return True, "Correct"
+            return True, ""
         else:
             return False, "Incorrect"
