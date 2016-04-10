@@ -3,3 +3,4 @@ _unpublished/
 _static/
 
 __pycache__
+*.pyc
