@@ -1,5 +1,5 @@
 def grade(arg, key):
 	if "Sutro Tower" in key:
-		return True, "Correct!"
+		return True, ""
 	else:
-		return False, "Incorrect. Keep trying!"
+		return False, "Keep trying!"
