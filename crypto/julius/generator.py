@@ -19,7 +19,7 @@ def encrypt(msg, n):
         if c in string.ascii_lowercase:
             output += chr((ord(c)-97+n)%26 + 97)
         elif c in string.ascii_uppercase:
-            output += chr((ord(c)-65+n)%26 + 97)
+            output += chr((ord(c)-65+n)%26 + 65)
         else: output += c
     return output
 
