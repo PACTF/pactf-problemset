@@ -15,6 +15,6 @@ def grade(key, flag):
     random.seed(key)
     n = random.randint(1, 25)
     msg = plaintext % randword(8)
-    if flag in msg[85:]:
+    if msg[85:] in flag:
         return True, 'Nice job!'
     return False, 'Nope!'
