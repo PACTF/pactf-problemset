@@ -2,4 +2,4 @@
         if "Digicert" in key:
             return True, ""
         else:
-            return False, "Incorrect"
+            return False, ""
