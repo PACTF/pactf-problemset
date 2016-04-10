@@ -25,8 +25,9 @@ class rsa2_handler(ss.BaseRequestHandler):
         encrypted = []
         for i in range(0, len(self.data), 2):
             encrypted.append(int(self.data[i:i+2].decode('ascii'), 16))
+
         msg = key.decrypt(bytes(encrypted))
-        if msg.decode('ascii') == flag:
+        if msg == bytes(flag, 'ascii'):
             self.request.sendall(b"Hey! That's our flag! You can't have that!")
         else:
             self.request.sendall(bytes(
@@ -34,15 +35,15 @@ class rsa2_handler(ss.BaseRequestHandler):
                     ''.join(hex(c)[2:] for c in msg)
                 ), 'ascii'
             ))
-        self.request.sendall("Remember to decode your hex data!")
+            self.request.sendall(b"Remember to decode your hex data!")
         self.request.close()
 
-class ForkingTCPServer(ss.ForkingMixIn, ss.TCPServer):
+class ThreadingTCPServer(ss.ThreadingMixIn, ss.TCPServer):
     pass
 
 if __name__ == '__main__':
-    HOST, PORT = 'localhost', 1234
-    ForkingTCPServer.allow_reuse_address = True
-    server = ForkingTCPServer((HOST, PORT), rsa2_handler)
+    HOST, PORT = '198.211.110.148', 59292
+    ThreadingTCPServer.allow_reuse_address = True
+    server = ThreadingTCPServer((HOST, PORT), rsa2_handler)
     ip, port = server.server_address
     server.serve_forever()
