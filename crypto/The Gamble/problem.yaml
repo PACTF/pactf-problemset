@@ -2,3 +2,4 @@ name: "The Gamble"
 points: -20
 description: 'You can solve this. You will lose 20 points. But a much more valuable problem will be unlocked.'
 hint: 'The flag is *not the flag*. At least it seems that way.'
+sort_last: true
