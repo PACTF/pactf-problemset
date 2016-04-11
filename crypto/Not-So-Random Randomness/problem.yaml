@@ -1,4 +1,4 @@
 name: Not-So-Random Randomness
 points: 60
-description: I've strengthened my RSA now! Now you got noo chance!
+description: I've strengthened my RSA now! Now you got noo chance! [encrypted.txt]({% ctflexstatic 'encrypted.txt' %})
 hint: With this 'completely' random seed from my old debian. This 2048-bit RSA key is unbreakable.
