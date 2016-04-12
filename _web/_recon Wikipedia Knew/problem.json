@@ -1,9 +1,0 @@
- {	"name": "Wikipedia Knew",
-	"score": 20,
-	"category": "Recon",
-	"grader": "recon/Wikipedia Knew/grader.py",
-	"description": "<p>Once upon a time, <a href=\"https://en.wikipedia.org/wiki/Flag\">Wikipedia</a> knew what THE FLAG is.</p>",
-	"threshold": 0,
-	"weightmap": {},
-	"hint": "I wish we could travel back in time."
- }
