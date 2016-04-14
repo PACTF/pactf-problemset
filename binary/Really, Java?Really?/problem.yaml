@@ -1,6 +1,6 @@
 name: Java
 points: 10
 description: |
-  Let's solve this [wonderful mystery]({% ctfstatic problem1.class %}).
+  Let's solve this [wonderful mystery]({% ctfstatic 'problem1.class' %}).
 hint: |
   Java isn't so mysterious. What if we could turn a class file back into its source?

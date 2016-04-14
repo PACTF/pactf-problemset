@@ -1,4 +1,0 @@
-name: _Parentheticals
-points: 10
-description: "Some guy came by and dropped [this]({% ctflexstatic 'colors.txt' %}) on the ground, muttering something about current events and being discharged."
-hint: "Well, if you can't figure it out, I guess I'll be going 'ohm..."
