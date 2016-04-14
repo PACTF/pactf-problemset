@@ -1,0 +1,7 @@
+name: 'Sorcery'
+points: 80
+description: |
+  What is this magic? My file is [here]({% ctflexstatic 'sorcery' %}), but where are my hardcoded strings?
+
+hint: |
+  And as Dorthy was told, "Follow the yello brick pointers."

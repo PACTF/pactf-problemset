@@ -3,6 +3,7 @@
 #include <stdint.h>
 #include <stdlib.h>
 #include <cstdint>
+#include <string>
 using namespace std;
 void flag(){
 		char start = '!';
@@ -79,7 +80,7 @@ void flag(){
 	char flag26 = *reinterpret_cast<char *>(&start-36);
 	char flag16 = *reinterpret_cast<char *>(&start-7);
 	char flag7 = *reinterpret_cast<char *>(&start-16);
-	cout << "test: " <<flag1<<flag2<<flag3<<flag4<<flag5<<flag6<<flag7<<flag8<<flag9<<flag10<<flag11<<flag12<<flag13<<flag14<<flag15<<flag16<<flag17<<flag18<<flag19<<flag20<<flag21<<flag22<<flag23<<flag24<<flag25<<flag26<<endl;
+	string flag = string(1,flag1)+string(1,flag2)+string(1,flag3)+string(1,flag4)+string(1,flag5)+string(1,flag6)+string(1,flag7)+string(1,flag8)+string(1,flag9)+string(1,flag10)+string(1,flag11)+string(1,flag12)+string(1,flag13)+string(1,flag14)+string(1,flag15)+string(1,flag16)+string(1,flag17)+string(1,flag18)+string(1,flag19)+string(1,flag20)+string(1,flag21)+string(1,flag22)+string(1,flag23)+string(1,flag24)+string(1,flag25)+string(1,flag26);
 }
 int main(int argc, char **argv) {
 	flag();
