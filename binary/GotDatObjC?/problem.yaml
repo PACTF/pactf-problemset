@@ -1,7 +1,0 @@
-name: 'GotDatObjC?'
-points: 50
-description: |
-  Oh! Who doesn't like a little obj-c???? [Just a smidgen.]({% ctflexstatic 'GotDatObjC?.zip' %}) (And this can be solved on any operating system. It brings no advantage to try and run it.)
-
-hint: |
-  This benevolent or neglecting programmer left some nice hard-coded strings for you.
