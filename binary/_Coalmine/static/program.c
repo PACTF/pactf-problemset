@@ -1,6 +1,8 @@
 #include <stdio.h>
 
-int getFlag();
+int getFlag() {
+
+}
 
 int main(void) {
 
@@ -9,8 +11,4 @@ int main(void) {
 
 
 
-}
-
-int getFlag() {
-	printf("obfuscated"); // obfuscated for reasons
 }
