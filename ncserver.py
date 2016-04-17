@@ -21,9 +21,12 @@ class ThreadingTCPServer(ss.ThreadingMixIn, ss.TCPServer):
         self.cmd = cmd
 
 if __name__ == '__main__':
-    HOST, PORT = 'localhost', 1234
+    if len(sys.argv) != 4:
+        print("Usage: python3 ncserver host port cmd")
+        exit(1)
+    HOST, PORT = sys.argv[1,2]
     ss.TCPServer.allow_reuse_address = True
     ThreadingTCPServer.allow_reuse_address = True
-    server = ThreadingTCPServer((HOST, PORT), nc_handler, sys.argv[1])
+    server = ThreadingTCPServer((HOST, PORT), nc_handler, sys.argv[3])
     ip, port = server.server_address
     server.serve_forever()
