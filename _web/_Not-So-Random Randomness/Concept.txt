@@ -1,8 +1,0 @@
-We generate a weak (predictable) RSA or SSH key, by using a vulnerable version of Debian that doesn't generate random numbers properly. To get the flag they must get the private key from the public key.
-
-https://www.debian.org/security/2008/dsa-1571
-https://blog.benjojo.co.uk/post/auditing-github-users-keys
-http://www.theregister.co.uk/2008/05/21/massive_debian_openssl_hangover/
-https://certlogik.com/debian-weak-key-check/
-
-- Tony

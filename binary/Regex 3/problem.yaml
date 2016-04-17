@@ -1,0 +1,17 @@
+name: |-
+  Regex 3: Oh, The Power!
+points: 90
+
+deps:
+  probs:
+    - 85e50328-2b74-45a7-bd60-d932d7890ff0
+  threshold: 1
+
+description: >
+    By now you are acquainted with the powers of regex,
+    but can you make a regex match only the powers of 5?
+    Only a string of 5^n repeating ‘x’s should pass.
+hint: >
+    Take away 4/5ths of a power of 5, and you have: a power of 5.
+
+# Consume some ‘x’s, the same number another 3 times, where 5 times was the entire string, and repeat.

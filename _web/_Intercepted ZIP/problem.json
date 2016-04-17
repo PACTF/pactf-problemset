@@ -1,8 +1,0 @@
-  {"name": "Intercepted ZIP",
-     "score": 80,
-     "category": "Crypto",
-     "grader": "crypto/Intercepted ZIP/grader.py",
-     "description": "<p>We intercepted <a href=\"/problem-static/crypto/Intercepted ZIP/intercepted.zip\">a ZIP file</a> that looks important.</p>",
-     "threshold": 0,
-     "weightmap": {},
-     "hint": "You may need to crack the password. But try to make the guesses educated, okay?"}
