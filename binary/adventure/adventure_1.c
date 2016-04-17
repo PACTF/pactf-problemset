@@ -9,14 +9,14 @@
 // simply running strings on this file should turn up just random gibberish that
 // hopefully won't get noticed
 void give_flag() {
-  char a[] = "vgi";
-  for (int i = 0 ; i < 3 ; i++) { a[i] -= 6; }
-  char b[] = "sezh^kT";
-  for (int i = 0 ; i < 7 ; i++) { b[i] += 1; }
-  char c[] = "xaF2v";
-  for (int i = 0 ; i < 5 ; i++) { c[i] -= 2; }
-  char d[] = "b-h/vy";
-  for (int i = 0 ; i < 6 ; i++) { d[i] += 4; }
+  char a[] = "opsq";
+  for (int i = 0 ; i < 4 ; i++) { a[i] -= 6; }
+  char b[] = ":;tre";
+  for (int i = 0 ; i < 5 ; i++) { b[i] += 1; }
+  char c[] = "yumi#2";
+  for (int i = 0 ; i < 6 ; i++) { c[i] -= 2; }
+  char d[] = "IAyue";
+  for (int i = 0 ; i < 5 ; i++) { d[i] += 4; }
   printf("%s%s%s%s\n", a, b, c, d);
   exit(0);
 }
