@@ -4,7 +4,7 @@ __author__ = 'Yatharth Agarwal <yatharth999@gmail.com>'
 
 import re
 
-f = open('small_haystack.html')
+f = open('_small_haystack.html')
 s = f.read()
 
 # sb = ','.join(map(str, range(30)))
