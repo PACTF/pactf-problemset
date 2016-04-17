@@ -1,4 +1,4 @@
 name: Whitespace
 points: 60
-description: I've found this [java program]({% ctflexstatic 'whitespace.java' %}) on someone's computer that looks fishy.
+description: I've found this [java program]({% ctflexstatic 'whitespacejava.java' %}) on someone's computer that looks fishy.
 hint: I wonder, is that really Java?
