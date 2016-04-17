@@ -10,13 +10,13 @@
 // hopefully won't get noticed
 void give_flag() {
   char a[] = "!!908";
-  for (int i = 0 ; i < 3 ; i++) { a[i] -= 6; }
+  for (int i = 0 ; i < 5 ; i++) { a[i] -= 6; }
   char b[] = "qwui";
-  for (int i = 0 ; i < 7 ; i++) { b[i] += 1; }
+  for (int i = 0 ; i < 4 ; i++) { b[i] += 1; }
   char c[] = "lhs$5";
   for (int i = 0 ; i < 5 ; i++) { c[i] -= 2; }
   char d[] = "jiowj";
-  for (int i = 0 ; i < 6 ; i++) { d[i] += 4; }
+  for (int i = 0 ; i < 5 ; i++) { d[i] += 4; }
   printf("%s%s%s%s\n", a, b, c, d);
   exit(0);
 }
