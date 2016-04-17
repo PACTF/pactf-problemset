@@ -41,6 +41,9 @@ void process(char input[]) {
   if (strcmp(cmd, "vim") == 0 || strcmp(cmd, "nano")) {
     puts("Anything but that!");
   }
+  if (strcmp(cmd, "emacs") == 0) {
+    puts("You feel your pinky break.");
+  }
   if (strcmp(cmd, "sudo") == 0) {
     puts("I can't let you do that, star fox!");
   }
