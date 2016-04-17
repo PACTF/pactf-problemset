@@ -1,7 +1,7 @@
 name: 'Sliding Letter Game'
 points: 50
 description: |
-  `nc [ip] [port]`
+  `nc 198.211.110.148 64753`
 
   It's the letter matching game! You just need to change the characters of a
   string so it matches a password! The source is
