@@ -1,0 +1,5 @@
+Look up the whitespace programming langauge.
+it's a programming language that is written purely in whitespace
+
+The java file given is a program that can both be run in whitespace and in java
+when the file is run using the whitespace interpreter it will output the flag
