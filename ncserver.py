@@ -20,7 +20,7 @@ class ThreadingTCPServer(ss.ThreadingMixIn, ss.TCPServer):
         ss.TCPServer.__init__(self, server_address, RequestHandlerClass)
         self.cmd = cmd
 
-    def verify_request(request, client_address):
+    def verify_request(self, request, client_address):
         with open("/var/www/logs.txt", "a") as f:
             f.write(str(client_address) + "\n")
         return True
