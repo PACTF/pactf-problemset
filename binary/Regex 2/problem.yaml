@@ -11,10 +11,8 @@
 
 # Your only recourse is a large, shared CSV file in which everyone at the company had to write what tools they used on company grounds.
 
-# Your recourse is a large, shared CSV file in which everyone at the company had to write what tools they used on company grounds.
-
 name: |-
-  Regex 2: Don''t Look Back
+  Regex 2: Don't Look Back
 points: 50
 
 deps:
@@ -22,24 +20,26 @@ deps:
     - 85e50328-2b74-45a7-bd60-d932d7890ff0
   threshold: 1
 
-description: >
+description: |
     You have been tasked with taking over FlexCorp's web 3.0 project as the
-    previous lead developer, Steve, just went into retirement. As you shield
+    previous lead developer just went into retirement. As you shield
     your eyes from the unmaintable horror, you see a little regex scrawled
-    against Steve's desk with a little inscription reading “how to parse Web
-    3.0 data.”
+    against his desk with a little inscription reading "how to parse Web 3.0
+    data." Presumably, he was talking about the large, shared CSV file in which
+    everyone at FlexCorp had to log which tools they used on company grounds.
 
-    You know that his first name begins with an S and his last name ends with a
-    U.
+    You know that his first name begins with an C and his last name ends with
+    an N.
 
-    Here's the [CSV file](haystack.csv), and here's the regex:
+    Here's the [CSV file]({% ctflexstatic 'haystack.csv' %}), and here's the
+    regex:
 
-        ^(?:.*?,){23}s\w+u,(?:.*?,){18}(.*?),.*$
+        ^(?:.*?,){29}(?:c\w+n),(?:.*?,){35}(.*?),.*$
 
     Can you find the name of the tool?
 
 hint: >
     We weren't kidding about the file being large.
-    You'll want to have a regex a bit cleverer than Steve's for this...
+    You'll want to have a regex a bit cleverer than the veteran's for this...
 
-    >! Backtrack a bit to learn about character classes — but don't let your regex backtrack!
+    Backtrack a bit to learn about character classes.

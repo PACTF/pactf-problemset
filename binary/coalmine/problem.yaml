@@ -1,6 +1,6 @@
 name: Coalmine
 points: 80
 description: |
-  Keep digging! We're running out of [oxygen]({% ctflexstatic oxygen %})! Check the source [here]({% ctflexstatic oxygen.c %})
+  Keep digging! We're running out of [oxygen]({% ctflexstatic "oxygen" %})! Check the source [here]({% ctflexstatic "oxygen.c" %})
 hint: |
   How could we figure out what the canary value is?
