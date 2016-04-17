@@ -6,7 +6,6 @@ import re
 import random
 
 
-
 def grade(key, flag):
     power = 5
 
