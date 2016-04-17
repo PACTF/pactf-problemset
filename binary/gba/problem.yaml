@@ -1,7 +1,7 @@
 name: 'Jump'
 points: 100
 description: |
-  [Don't fall off...]({% ctflexstatic handout.zip %}).
+  [Don't fall off...]({% ctflexstatic "handout.zip" %}).
 
 hint: |
   I wonder where I've seen this before?
