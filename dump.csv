@@ -1,37 +1,46 @@
-aecb40c1-42ce-4866-a2ee-9ba82ee2c41d,_unpublished,Compiling the Uncompilable,10
-eb25964b-33f7-4151-8d73-50cd8f24274f,algo,_Huge Numbers,10
-917f5c00-b29c-42a5-975b-4e0f71f548a3,binexp,Sliding Letter Game,80
-e0384589-2b53-4e5f-8658-60e3f021d832,crypto,_Dont Do This Problem,10
-214ae345-a893-42c1-b349-99dbcdfada4a,crypto,_Got Bits,10
-581dca54-c4ee-4eca-ab44-e0a793dcf11a,crypto,_Intercepted ZIP,10
-e019b6b0-7e7f-4301-a457-14dc0219ecf3,crypto,_Lost Keys,10
-6492169c-939c-405f-9476-7d02f6cf3a03,crypto,_Not-So-Random Randomness,10
-ede604fd-56bb-47eb-badf-6d662e2da7d6,crypto,_Too Much Resistance,10
-a653ed48-a5a1-487e-a5ea-615f9dee6bb3,crypto,Surfing Keys,50
-87b7de6f-c1a5-49d3-9c06-b81fb2100118,misc,_fisr,10
-1f1cfc6d-f624-4bd8-bf93-107ca31de74a,programming,_J1,10
-2a699ac2-96c9-4d04-9787-4dcdc14fdbce,programming,_Parentheticals,10
-f1a496d4-bae1-4042-8358-b62576ccc8ce,programming,_Whitespace,10
-85e50328-2b74-45a7-bd60-d932d7890ff0,programming,Regex 1: Quantifying Classiness,10
-e392773e-3611-4acb-8f08-7bfacc95eea3,programming,Regex 4: Don''t Look Back,50
-814c9007-18da-4b41-8d7a-4aec95bb751a,programming,"Regex 5: Oh, The Power!",110
-7c74b4dc-c2cf-4f4a-90f1-06dce2e51baf,recon,Bears and Bulls,10
-fecf83f1-00ac-4e08-a752-a74647724792,recon,_First Task,10
-a9a6e89c-4836-4e96-b750-5fbe71cd97e6,recon,_Lurking In Plain Sight,10
-c0121378-93c3-459c-a8ea-133e0f155723,recon,_Mystery Man,10
-3535241d-09b5-47d0-a0df-67aee0e1d8d1,recon,_The Big Picture,10
-63b152cb-280f-459d-84aa-68ccbe653a20,recon,_What Does It Say,10
-b7737083-ead6-466d-85e2-a7e73ef17ed0,recon,_Wikipedia Knew,10
-d44928d1-e6eb-4f71-82fc-ecd89528e990,reversing,RabbitJS,10
-dc1f74e3-b1d3-4a4b-84b0-d7b9d4d05959,reversing,Guessing Game,30
-d64eb54d-f824-4028-9e4c-abad50508e85,reversing,Foolish Filesystem,50
-9bd85aa2-70c7-4f42-b080-9d6f18201a6d,reversing,Magic,130
-43375f09-3494-4114-8d5f-36584293e746,reversing,"Java, the secure language",10
-acab3e6b-e8c9-4e49-a2ef-f8a301653d68,story,_Blaise de Infiltration,10
-2518a5c7-0b10-4c36-af04-c8b378b1cb7a,web,_A Fierce Attacker,10
-0e7b2437-96c9-4114-94a7-b1eebd936583,web,_Compromised Server,10
-d91b7629-e82e-4916-a4aa-8aeef5a758ad,web,_Heartbroken,10
-71877779-db50-4559-a719-56646c235706,web,_Injection I,10
-96ab5b91-ea9f-458b-80af-65131abb3cf9,web,_Unauthorized Access,10
-9912bb21-6fe4-40c9-8db3-3b92c45faec5,web,_Unsanitary,10
-2c058182-04f1-4c46-a238-cd71a96e6b68,web,Blocked by Danger,50
+0c7a2707-2b20-40a3-aa77-854a7a81fb50,_unused,_choose,10
+aecb40c1-42ce-4866-a2ee-9ba82ee2c41d,_unused,Compiling the Uncompilable,10
+87b7de6f-c1a5-49d3-9c06-b81fb2100118,_unused,_fisr,10
+ced742ad-f675-461e-b71a-2f07eb208211,_unused,Decider.,120
+58e04942-fffc-41f1-bfb7-16f298c51166,_unused,The Gamble,-20
+7c74b4dc-c2cf-4f4a-90f1-06dce2e51baf,_web,Bears and Bulls,10
+fecf83f1-00ac-4e08-a752-a74647724792,_web,_First Task,10
+a9a6e89c-4836-4e96-b750-5fbe71cd97e6,_web,_Lurking In Plain Sight,10
+c0121378-93c3-459c-a8ea-133e0f155723,_web,_Mystery Man,10
+3535241d-09b5-47d0-a0df-67aee0e1d8d1,_web,_The Big Picture,10
+63b152cb-280f-459d-84aa-68ccbe653a20,_web,_What Does It Say,10
+2518a5c7-0b10-4c36-af04-c8b378b1cb7a,_web,_A Fierce Attacker,10
+0e7b2437-96c9-4114-94a7-b1eebd936583,_web,_Compromised Server,10
+d91b7629-e82e-4916-a4aa-8aeef5a758ad,_web,_Heartbroken,10
+71877779-db50-4559-a719-56646c235706,_web,_Injection I,10
+96ab5b91-ea9f-458b-80af-65131abb3cf9,_web,_Unauthorized Access,10
+9912bb21-6fe4-40c9-8db3-3b92c45faec5,_web,_Unsanitary,10
+2c058182-04f1-4c46-a238-cd71a96e6b68,_web,Blocked by Danger,50
+b7737083-ead6-466d-85e2-a7e73ef17ed0,_web,Wikipedia Knew,20
+d64eb54d-f824-4028-9e4c-abad50508e85,binary,Foolish Filesystem,50
+f6d04062-fc2f-4de4-af69-d5839598a4c4,binary,Coalmine,50
+33b3dafa-d1a4-43a0-a616-1283aa04a8d0,binary,Jump,80
+eb25964b-33f7-4151-8d73-50cd8f24274f,binary,Huge Numbers,70
+9bd85aa2-70c7-4f42-b080-9d6f18201a6d,binary,Magic,20
+917f5c00-b29c-42a5-975b-4e0f71f548a3,binary,Sliding Letter Game,80
+d44928d1-e6eb-4f71-82fc-ecd89528e990,binary,RabbitJS,10
+dc1f74e3-b1d3-4a4b-84b0-d7b9d4d05959,binary,Guessing Game,30
+85e50328-2b74-45a7-bd60-d932d7890ff0,binary,Regex 1: Classy Punctuation,10
+e392773e-3611-4acb-8f08-7bfacc95eea3,binary,Regex 4: Don''t Look Back,50
+814c9007-18da-4b41-8d7a-4aec95bb751a,binary,"Regex 3: Oh, The Power!",110
+b0d1ed57-0c27-4b43-b599-e70a760d9274,binary,Sorcery,80
+f1a496d4-bae1-4042-8358-b62576ccc8ce,binary,Whitespace,60
+acab3e6b-e8c9-4e49-a2ef-f8a301653d68,crypto,Blaise de Infiltration,50
+4811cb3b-055f-4240-87ab-5df8fe854003,crypto,Dropped the file!,30
+214ae345-a893-42c1-b349-99dbcdfada4a,crypto,Got Bits,55
+581dca54-c4ee-4eca-ab44-e0a793dcf11a,crypto,Intercepted ZIP,20
+23f080f9-bc2f-4b00-a7cc-96ac246f4afc,crypto,Julius,10
+e019b6b0-7e7f-4301-a457-14dc0219ecf3,crypto,Lost Keys,50
+6492169c-939c-405f-9476-7d02f6cf3a03,crypto,Not-So-Random Randomness,60
+f57a6420-38c0-4144-bc5a-31396fff8e6f,crypto,Unbreakable,80
+44d5b155-d798-4384-98e6-aa2b1a03a1c4,crypto,Point-Slope Encryption,100
+61641ee7-8ed5-4b32-8fff-eea35bd6f123,crypto,Phillips Decryption Service,70
+ee5ee44b-bd07-4882-87d3-4082f8a1056d,crypto,Stegono-saurus,15
+a653ed48-a5a1-487e-a5ea-615f9dee6bb3,crypto,Surfing Keys,40
+ede604fd-56bb-47eb-badf-6d662e2da7d6,crypto,Too Much Resistance,40
+9d01642f-0d57-400a-9a08-85a8071ee336,crypto,You are a square.,45
