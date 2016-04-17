@@ -7,14 +7,16 @@ import sys
 
 class nc_handler(ss.StreamRequestHandler):
     def handle(self):
-        with open("/var/www/logs.txt", "a") as f:
-            f.write(str(self.request.getpeername()) + "\n")
         self.process = sp.Popen(
             self.server.cmd,
             stdin=self.rfile,
             stdout=self.wfile
         )
         self.request.close()
+    def verify_request(request, client_address):
+        with open("/var/www/logs.txt", "a") as f:
+            f.write(str(client_address) + "\n")
+        return True
 
 
 class ThreadingTCPServer(ss.ThreadingMixIn, ss.TCPServer):
