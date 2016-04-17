@@ -9,13 +9,13 @@
 // simply running strings on this file should turn up just random gibberish that
 // hopefully won't get noticed
 void give_flag() {
-  char a[] = "vgi";
+  char a[] = "!!908";
   for (int i = 0 ; i < 3 ; i++) { a[i] -= 6; }
-  char b[] = "sezh^kT";
+  char b[] = "qwui";
   for (int i = 0 ; i < 7 ; i++) { b[i] += 1; }
-  char c[] = "xaF2v";
+  char c[] = "lhs$5";
   for (int i = 0 ; i < 5 ; i++) { c[i] -= 2; }
-  char d[] = "b-h/vy";
+  char d[] = "jiowj";
   for (int i = 0 ; i < 6 ; i++) { d[i] += 4; }
   printf("%s%s%s%s\n", a, b, c, d);
   exit(0);
