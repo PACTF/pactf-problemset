@@ -7,6 +7,8 @@ import sys
 
 class nc_handler(ss.StreamRequestHandler):
     def handle(self):
+        with open("/var/www/logs.txt", "a") as f:
+            f.write(str(self.request.getpeername()) + "\n")
         self.process = sp.Popen(
             self.server.cmd,
             stdin=self.rfile,
@@ -24,7 +26,8 @@ if __name__ == '__main__':
     if len(sys.argv) != 4:
         print("Usage: python3 ncserver host port cmd")
         exit(1)
-    HOST, PORT = sys.argv[1,2]
+    HOST, PORT = sys.argv[1:3]
+    PORT = int(PORT)
     ss.TCPServer.allow_reuse_address = True
     ThreadingTCPServer.allow_reuse_address = True
     server = ThreadingTCPServer((HOST, PORT), nc_handler, sys.argv[3])
