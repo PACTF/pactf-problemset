@@ -13,16 +13,17 @@ class nc_handler(ss.StreamRequestHandler):
             stdout=self.wfile
         )
         self.request.close()
-    def verify_request(request, client_address):
-        with open("/var/www/logs.txt", "a") as f:
-            f.write(str(client_address) + "\n")
-        return True
 
 
 class ThreadingTCPServer(ss.ThreadingMixIn, ss.TCPServer):
     def __init__(self, server_address, RequestHandlerClass, cmd):
         ss.TCPServer.__init__(self, server_address, RequestHandlerClass)
         self.cmd = cmd
+
+    def verify_request(request, client_address):
+        with open("/var/www/logs.txt", "a") as f:
+            f.write(str(client_address) + "\n")
+        return True
 
 if __name__ == '__main__':
     if len(sys.argv) != 4:
