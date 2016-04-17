@@ -42,7 +42,7 @@ class ThreadingTCPServer(ss.ThreadingMixIn, ss.TCPServer):
     pass
 
 if __name__ == '__main__':
-    HOST, PORT = '198.211.110.148', 59292
+    HOST, PORT = 'localhost', 1234
     ThreadingTCPServer.allow_reuse_address = True
     server = ThreadingTCPServer((HOST, PORT), rsa2_handler)
     ip, port = server.server_address
