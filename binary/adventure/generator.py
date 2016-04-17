@@ -1,4 +1,4 @@
-desc = '''You found an [interesting program]({% ctflexstatic adventure{} %}) on
+desc = '''You found an [interesting program]({% ctflexstatic "adventure{}" %}) on
 the floor... wonder what it is?
 '''
 
