@@ -86,9 +86,11 @@ int main(int argc, char **argv) {
       index = getnum("Index of the character you want to change? ");
       if (index > 32) {
         puts("That index is too big!");
+        fflush(stdout);
         continue;
       }
       printf("Change it to (first character of input): ");
+      fflush(stdout);
       fgets(input, 64, stdin);
       passphrase[index] = input[0];
       continue;
@@ -108,6 +110,7 @@ int main(int argc, char **argv) {
           correct = false;
         }
       }
+      fflush(stdout);
       if (correct) {
         if (secret == 0x1337) {
           puts("Wow, what a l337h4ck3r you are!");
