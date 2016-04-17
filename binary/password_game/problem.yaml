@@ -5,7 +5,7 @@ description: |
 
   It's the letter matching game! You just need to change the characters of a
   string so it matches a password! The source is
-  [here]({% ctflexstatic "passgame.c" %}).
+  [here]({% ctflexstatic 'passgame.c' %}).
 
 hint: |
   What happens if you make a number that's _really_ big?
