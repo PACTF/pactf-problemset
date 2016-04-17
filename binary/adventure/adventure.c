@@ -38,7 +38,7 @@ void process(char input[]) {
     puts("You find your way blocked!");
     return;
   }
-  if (strcmp(cmd, "vim") == 0 || strcmp(cmd, "nano")) {
+  if (strcmp(cmd, "vim") == 0 || strcmp(cmd, "nano") == 0) {
     puts("Anything but that!");
   }
   if (strcmp(cmd, "emacs") == 0) {

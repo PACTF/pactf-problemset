@@ -9,15 +9,13 @@
 // simply running strings on this file should turn up just random gibberish that
 // hopefully won't get noticed
 void give_flag() {
-  char a[] = "!!908";
-  for (int i = 0 ; i < 5 ; i++) { a[i] -= 6; }
-  char b[] = "qwui";
-  for (int i = 0 ; i < 4 ; i++) { b[i] += 1; }
-  char c[] = "lhs$5";
-  for (int i = 0 ; i < 5 ; i++) { c[i] -= 2; }
-  char d[] = "jiowj";
-  for (int i = 0 ; i < 5 ; i++) { d[i] += 4; }
-  printf("%s%s%s%s\n", a, b, c, d);
+  char a[] = "gmbh";
+  for (int i = 0 ; i < 4 ; i++) { a[i] -= 1; }
+  char b[] = "xt0t";
+  for (int i = 0 ; i < 4 ; i++) { b[i] += 3; }
+  char c[] = "Yf.^w";
+  for (int i = 0 ; i < 5 ; i++) { c[i] += 6; }
+  printf("%s%s%s\n", a, b, c);
   exit(0);
 }
 
@@ -38,7 +36,7 @@ void process(char input[]) {
     puts("You find your way blocked!");
     return;
   }
-  if (strcmp(cmd, "vim") == 0 || strcmp(cmd, "nano")) {
+  if (strcmp(cmd, "vim") == 0 || strcmp(cmd, "nano") == 0) {
     puts("Anything but that!");
   }
   if (strcmp(cmd, "emacs") == 0) {
