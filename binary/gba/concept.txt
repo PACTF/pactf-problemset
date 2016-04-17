@@ -1,0 +1,5 @@
+the handout is a gba file that is a hacked version of the gba homebrew game
+"smash bros advance"
+
+every frame, there is a value loaded into a specific place in memory; putting
+these together makes the flag

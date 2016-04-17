@@ -1,0 +1,7 @@
+name: 'Jump'
+points: 80
+description: |
+  [Don't fall off...]({% ctflexstatic handout.zip %}).
+
+hint: |
+  I wonder where I've seen this before?

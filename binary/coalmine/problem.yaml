@@ -1,0 +1,6 @@
+name: Coalmine
+points: 50
+description: |
+  Keep digging! We're running out of [oxygen]({% ctflexstatic prog %})!
+hint: |
+  How could we figure out what the canary value is?
