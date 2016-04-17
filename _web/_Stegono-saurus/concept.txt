@@ -1,1 +1,0 @@
-The flag is hidden in the differences between the files. Don’t give the original, make them go find it.
