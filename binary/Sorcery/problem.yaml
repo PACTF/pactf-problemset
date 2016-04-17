@@ -1,5 +1,5 @@
 name: 'Sorcery'
-points: 80
+points: 70
 description: |
   What is this magic? My file is [here]({% ctflexstatic 'sorcery' %}), but where are my hardcoded strings?
 

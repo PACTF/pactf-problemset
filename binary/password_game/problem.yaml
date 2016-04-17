@@ -1,8 +1,10 @@
 name: 'Sliding Letter Game'
-points: 80
+points: 50
 description: |
+  `nc [ip] [port]`
+
   It's the letter matching game! You just need to change the characters of a
-  string so it matches a password! `nc [ip_addr]` to play. The source is
+  string so it matches a password! The source is
   [here]({% ctflexstatic passgame.c %}).
 
 hint: |

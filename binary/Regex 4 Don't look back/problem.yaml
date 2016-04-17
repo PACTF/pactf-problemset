@@ -24,6 +24,6 @@ description: >
     Can you find the name of the tool?
 
 hint: >
-    We weren't kidding about the file being large. You'll want to have a bit cleverer regex than Steve's for this…
+    We weren't kidding about the file being large. You'll want to have a bit cleverer regex than Steve's for this...
 
     Backtrack a bit to learn about character classes — but don't let your regex backtrack!

@@ -1,0 +1,1 @@
+write an algo that only keeps track of two digits at once

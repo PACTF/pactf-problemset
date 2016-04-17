@@ -1,5 +1,5 @@
 name: 'Jump'
-points: 80
+points: 100
 description: |
   [Don't fall off...]({% ctflexstatic handout.zip %}).
 

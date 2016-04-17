@@ -1,5 +1,5 @@
 name: 'Magic'
-points: 20
+points: 40
 description: |
   Wanna see a [magic trick]({% ctfstatic magic %})?
 
