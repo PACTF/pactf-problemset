@@ -1,5 +1,5 @@
 name: Coalmine
-points: 50
+points: 80
 description: |
   Keep digging! We're running out of [oxygen]({% ctflexstatic prog %})!
 hint: |
