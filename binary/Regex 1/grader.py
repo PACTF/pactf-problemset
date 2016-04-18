@@ -20,7 +20,13 @@ def check(flag):
 
 
 def grade(key, flag):
-    if check(flag):
+    try:
+        success = check(flag)
+    except Exception as err:
+        print(err)
+        return False, "Please try a different regex."
+
+    if success:
         return True, "Now you have two problems. (Seriously, refresh the page.)"
     else:
         return False, "Joe still doesn’t know…"
