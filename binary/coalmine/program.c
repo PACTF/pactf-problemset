@@ -12,7 +12,7 @@ int getFlag() {
   exit(0);
 }
 
-int main(void) {
+void echo() {
   int canary = CANARY;
   char name[256];
   char echo[256];
@@ -38,6 +38,10 @@ int main(void) {
     printf("\n");
     fflush(stdout);
   }
+}
+
+int main(void) {
+  echo();
 
   return 0;
 }
