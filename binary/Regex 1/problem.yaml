@@ -4,6 +4,6 @@ points: 15
 
 description: >
     Joe wants to know: He can be a bit dramatic with his punctutation, but does he ever repeat it 23 times?
-    Help him write a regex that matches 13 characters each of which is ''.'', ''!'' or ''?''?
+    Help him write a regex that matches 23 characters each of which is ''.'', ''!'' or ''?''?
 hint: >
     Learn about regular expressions at [RegexOne](http://regexone.com).
