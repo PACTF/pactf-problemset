@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include "secret.h"
 
 int getFlag() {
@@ -23,6 +24,8 @@ void echo() {
   // I can't seem to figure out fgets, but gets be fine because we
   // have a secret canary value, right?
   gets(name);
+  printf("Type 'quit' to leave!\n");
+  fflush(stdout);
 
   while (1) {
     printf(name);
@@ -33,6 +36,11 @@ void echo() {
       printf("Error! Canary value overwritten!");
       fflush(stdout);
       exit(1);
+    }
+    if (strcmp(echo, "quit") == 0) {
+      printf("Bye!");
+      fflush(stdout);
+      return;
     }
     printf(echo);
     printf("\n");
