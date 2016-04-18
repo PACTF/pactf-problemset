@@ -1,6 +1,8 @@
 name: Coalmine
 points: 80
 description: |
+  `nc 104.236.216.251 59292`
+
   Keep digging! We're running out of [oxygen]({% ctflexstatic "oxygen" %})! Check the source [here]({% ctflexstatic "oxygen.c" %})
 hint: |
   How could we figure out what the canary value is?

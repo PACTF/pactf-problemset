@@ -6,7 +6,7 @@ description: |
   programmer wasn't quite sure how to make _absolutely sure_ that things were
   random, so there's a hole in their program! Can you exploit it?
 
-  The game is running on [port]
+  `nc 104.236.216.251 64753`
 
 hint: |
   What happens if the same person plays multiple times?

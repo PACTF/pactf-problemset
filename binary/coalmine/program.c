@@ -8,6 +8,8 @@ int getFlag() {
   char flag[64];
   fgets(flag, 64, (FILE*) fp);
   printf("Your flag is: %s\n", flag);
+  fflush(stdout);
+  exit(0);
 }
 
 int main(void) {
@@ -17,6 +19,7 @@ int main(void) {
 
   printf("### ECHO SERVER TEST ###\n");
   printf("Please enter your name: ");
+  fflush(stdout);
   // I can't seem to figure out fgets, but gets be fine because we
   // have a secret canary value, right?
   gets(name);
@@ -24,12 +27,16 @@ int main(void) {
   while (1) {
     printf(name);
     printf("@echo: ");
+    fflush(stdout);
     gets(echo);
     if (canary != CANARY) {
       printf("Error! Canary value overwritten!");
+      fflush(stdout);
       exit(1);
     }
     printf(echo);
+    printf("\n");
+    fflush(stdout);
   }
 
   return 0;

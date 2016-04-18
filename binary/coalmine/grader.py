@@ -1,4 +1,4 @@
 def grade(arg, key):
-	if 'todo' in key:
-		return True, ""
+	if 'ctf_1z_mY_0xyGen' in key:
+		return True, "Breathe!"
 	else: return False, 'Nope'
