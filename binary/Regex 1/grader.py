@@ -11,10 +11,16 @@ REJECTS = (
 )
 
 
-def grade(key, flag):
+def check(flag):
     pat = re.compile(flag)
-    if (all(not pat.findall(reject) for reject in REJECTS)
-        and all(pat.findall(accept) for accept in ACCEPTS)):
-        return True, "Now you have two problems (seriously, refresh the page)."
+    return (
+        all(not pat.findall(reject) for reject in REJECTS)
+        and all(pat.findall(accept) for accept in ACCEPTS)
+    )
+
+
+def grade(key, flag):
+    if check(flag):
+        return True, "Now you have two problems. (Seriously, refresh the page.)"
     else:
         return False, "Joe still doesn’t know…"
