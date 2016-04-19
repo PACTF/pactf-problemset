@@ -31,6 +31,8 @@ def check(flag):
 
 
 def grade(key, flag):
+    if len(flag) > 30:
+        return False, "Your regex is too long!"
     try:
         fail = check(flag)
     except Exception as err:

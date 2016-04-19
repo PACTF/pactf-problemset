@@ -4,4 +4,4 @@ description: |
   What is this magic? My file is [here]({% ctflexstatic 'sorcery' %}), but where are my hardcoded strings?
 
 hint: |
-  And as Dorthy was told, "Follow the yello brick pointers." (We recommend using www.onlinedisassembler.com! It's pretty nice.)
+  And as Dorthy was told, "Follow the yello brick pointers." (We recommend using [this online tool](https://www.onlinedisassembler.com/static/home/)! It's pretty nice.)
