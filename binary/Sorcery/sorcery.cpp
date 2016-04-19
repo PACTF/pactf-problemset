@@ -6,7 +6,7 @@
 #include <string>
 using namespace std;
 void flag(){
-		char start = '!';
+	char start = '!';
 	char q = 'q';
 	char z = 'z';
 	char s = 's';
@@ -54,33 +54,25 @@ void flag(){
 	char fdasa2 = 'f';
 	char fdasa = '_';
 	char asdf3 = '-';
-	char flag17 = *reinterpret_cast<char *>(&start-23);
-	char flag18 = *reinterpret_cast<char *>(&start-46);
-	char flag3 = *reinterpret_cast<char *>(&start-35);
-	char flag4 = *reinterpret_cast<char *>(&start-4);
-	char flag5 = *reinterpret_cast<char *>(&start-17);
-	char flag6 = *reinterpret_cast<char *>(&start-46);
-	char flag10 = *reinterpret_cast<char *>(&start-14);
-	char flag11 = *reinterpret_cast<char *>(&start-4);
-	char flag12 = *reinterpret_cast<char *>(&start-46);
-	char flag13 = *reinterpret_cast<char *>(&start-7);
-	char flag14 = *reinterpret_cast<char *>(&start-17);
-	char flag15 = *reinterpret_cast<char *>(&start-8);
-	char flag24 = *reinterpret_cast<char *>(&start-8);
-	char flag25 = *reinterpret_cast<char *>(&start-20);
 	char flag1 = *reinterpret_cast<char *>(&start-18);
-	char flag2 = *reinterpret_cast<char *>(&start-6);
-	char flag19 = *reinterpret_cast<char *>(&start-10);
-	char flag20 = *reinterpret_cast<char *>(&start-4);
-	char flag21 = *reinterpret_cast<char *>(&start-14);
-	char flag22 = *reinterpret_cast<char *>(&start-46);
-	char flag23 = *reinterpret_cast<char *>(&start-20);
-	char flag8 = *reinterpret_cast<char *>(&start-26);
-	char flag9 = *reinterpret_cast<char *>(&start-28);
-	char flag26 = *reinterpret_cast<char *>(&start-36);
-	char flag16 = *reinterpret_cast<char *>(&start-7);
-	char flag7 = *reinterpret_cast<char *>(&start-16);
-	string flag = string(1,flag1)+string(1,flag2)+string(1,flag3)+string(1,flag4)+string(1,flag5)+string(1,flag6)+string(1,flag7)+string(1,flag8)+string(1,flag9)+string(1,flag10)+string(1,flag11)+string(1,flag12)+string(1,flag13)+string(1,flag14)+string(1,flag15)+string(1,flag16)+string(1,flag17)+string(1,flag18)+string(1,flag19)+string(1,flag20)+string(1,flag21)+string(1,flag22)+string(1,flag23)+string(1,flag24)+string(1,flag25)+string(1,flag26);
+	char flag2 = *reinterpret_cast<char *>(&start-28);
+	char flag3 = *reinterpret_cast<char *>(&start-46);
+	char flag4 = *reinterpret_cast<char *>(&start-10);
+	char flag5 = *reinterpret_cast<char *>(&start-22);
+	char flag6 = *reinterpret_cast<char *>(&start-15);
+	char flag7 = *reinterpret_cast<char *>(&start-46);
+	char flag8 = *reinterpret_cast<char *>(&start-10);
+	char flag9 = *reinterpret_cast<char *>(&start-22);
+	char flag10 = *reinterpret_cast<char *>(&start-7);
+	char flag11 = *reinterpret_cast<char *>(&start-23);
+	char flag12 = *reinterpret_cast<char *>(&start-8);
+	char flag13 = *reinterpret_cast<char *>(&start-10);
+	char flag14 = *reinterpret_cast<char *>(&start-46);
+	char flag15 = *reinterpret_cast<char *>(&start-22);
+	char flag16 = *reinterpret_cast<char *>(&start-27);
+	char flag17 = *reinterpret_cast<char *>(&start);
+	char flag18 = *reinterpret_cast<char *>(&start-36);
+	string flag = string(1,flag1) + string(1,flag2) + string(1,flag3) + string(1,flag4) + string(1,flag5) + string(1,flag6) + string(1,flag7) + string(1,flag8) + string(1,flag9) + string(1,flag10) + string(1,flag11) + string(1,flag12) + string(1,flag13) + string(1,flag14) + string(1,flag15) + string(1,flag16) + string(1,flag17) + string(1,flag18);
 }
 int main(int argc, char **argv) {
 	flag();
