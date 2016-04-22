@@ -1,0 +1,3 @@
+The email footer contains a PGP key identifier. If you look up the identifier, it gives you a key tied to an anonymous email address. If you google search the email address, you get to someone's blog, and the blog has the person's full name.
+
+- Tony
