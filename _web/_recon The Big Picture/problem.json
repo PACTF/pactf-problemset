@@ -1,8 +1,0 @@
-  {"name": "The Big Picture",
-     "score": 30,
-     "category": "Recon",
-     "grader": "recon/The Big Picture/grader.py",
-     "description": "<p>My friend often tells me that I am missing the <a href=\"/problem-static/recon/The Big Picture/Big_Picture.jpg\">big picture</a>.</p>",
-     "threshold": 0,
-     "weightmap": {},
-     "hint": "No hint."}

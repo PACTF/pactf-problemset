@@ -1,9 +1,0 @@
- {	"name": "Heartbroken",
-	"score": 200,
-	"category": "Web",
-	"grader": "web/Heartbroken/grader.py",
-	"description": "<p>I need to intercept someone's secure connection to <a href=\"https://heartbroken.hacked.pactf.cf\">this website</a>. Can you help me steal the RSA private key for the server cerificate? Submit the Base64 encoded SHA256 hash of the server's RSA private key.</p>",
-	"threshold": 0,
-	"weightmap": {},
-	"hint": "If you got the private key, you'll need to convert it to DER format, hash it with SHA256, and then make sure the hash is in Base64. The end result should somewhat look like \"lv8t74hplkz79CIsCsBzDiaTfJF1skxv0rLhkV5Gw2A=\". Believe me, it is possible!"
- }

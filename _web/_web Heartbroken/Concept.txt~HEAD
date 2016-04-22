@@ -1,7 +1,0 @@
-Similar to CloudFlare's Heartbleed challenge (https://blog.cloudflare.com/answering-the-critical-question-can-you-get-private-ssl-keys-using-heartbleed/), we set up a HTTPS capable server that runs an old version of OpenSSL vulnerable to heartbleed, and the flag would be a SHA2 hash of the private key used by the server for SSL connections. (Or some other way to verify that the player obtained the server's keys.)
-
-There are multiple ways to solve this, the easiest of which is to follow the guide here (https://blog.indutny.com/9.heartbleed) and use this tool (https://github.com/indutny/heartbleed).
-
-Of course, to make this a difficult problem, we will not mention heartbleed anywhere in the problem. We simply ask them to recover the private key from the server using whatever means possible. (We harden every other aspect of the server so heartbleed would be only way to get it.)
-
-- Tony
