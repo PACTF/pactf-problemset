@@ -1,0 +1,7 @@
+This problem is about bypassing mis-configured HSTS. Typing "danger" used to work in Chrome. There are other ways to do this.
+
+- Yatharth
+
+This problem's solution may be a duplicate of "What Does It Say", as both requires the bypassing of non-bypassable SSL security errors. This problem requires us to implement it ourselves, whereas "What Does It Say" uses a pre-existing website for security testing purposes.
+
+- Tony
