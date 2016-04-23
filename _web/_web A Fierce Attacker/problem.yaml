@@ -1,4 +1,7 @@
 name: _A Fierce Attacker
 points: 10
-description: N/A
-hint: N/A
+description: Intelligence states that the flag is located on a server with the domain 'pactf' in a remote African country on an secret sub-domain.  Can you find the correct sub-domain and TLD?
+hint: |
+  [Here's](www.example.com) a link to some country TLDs you might want to try.
+
+  The sub-domain is more than 10 characters long; don't try to DDoS it. Find someone fierce instead.

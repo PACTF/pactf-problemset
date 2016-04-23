@@ -1,4 +1,4 @@
 name: _Unauthorized Access
 points: 10
-description: N/A
-hint: N/A
+description: Get us [authorized](https://unauthorized.pactf.cf).
+hint: Can you change who you are?

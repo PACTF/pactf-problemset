@@ -1,4 +1,4 @@
-name: _Compromised Server
+name: Compromised Server
 points: 10
-description: N/A
-hint: N/A
+description: Someone told me that my [file server](ftp://ftp.hacked.pactf.cf) has been compromised by a hacker. I tried logging in but my credentials don't work anymore. I know it runs a very secure FTP daemon. Can you retrieve /root/flag.txt for me?
+hint: How does the hacker get in without an account?
