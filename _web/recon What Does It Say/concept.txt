@@ -1,3 +1,0 @@
-The flag is on the linked webpage, https://revoked.grc.com/, but the certificate used of the website has been revoked. To solve this problem, you either have to find a way to bypass the security errors, or use a tool like wget or curl.
-
-- Tony

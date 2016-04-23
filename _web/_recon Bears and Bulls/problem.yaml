@@ -1,9 +1,0 @@
-name: Bears and Bulls
-points: 10
-description: >
-  RoboCorp likes to dabble in the stock market. They have managed to keep their investments off the books, but vain as they are they couldn't help but track how popular their investments were doing, tracking it in CSV file titled "both combined" created in Jan 2004 and apparently accessed monthly. Can you figure out their investments? If there are multiple, separate their names with underscores.
-hint: >
-  After their skirmish with Microsoft, it seems RoboCorp's search engine of choice is Google.
-flag:
-  - xom_cvx
-  - cvx_xom

@@ -1,4 +1,0 @@
-name: 'First Task'
-points: 10
-description: "What is [this]({% ctflexstatic 'picture.jpg' %})?"
-hint: "If you don't know what it is, then Google would be your best friend."

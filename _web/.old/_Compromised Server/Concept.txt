@@ -1,3 +1,0 @@
-vsftpd 2.3.4 backdoored
-https://en.wikipedia.org/wiki/Vsftpd#History
-https://www.exploit-db.com/exploits/17491/

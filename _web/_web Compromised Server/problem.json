@@ -1,9 +1,0 @@
- {	"name": "Compromised Server?",
-	"score": 50,
-	"category": "Web",
-	"grader": "web/Compromised Server/grader.py",
-	"description": "<p>Someone told me that my <a href=\"ftp://ftp.hacked.pactf.cf\">file server</a> has been compromised by a hacker. I tried logging in but my credentials don't work anymore. I know it runs a very secure FTP daemon. Can you retrieve /root/flag.txt for me?</p>",
-	"threshold": 0,
-	"weightmap": {},
-	"hint": "How does the hacker get in without an account?"
- }

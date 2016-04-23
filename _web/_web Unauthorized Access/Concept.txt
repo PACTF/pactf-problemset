@@ -1,5 +1,0 @@
-We set up a server that only displays the flag if the request came from an IP belonging to Google. If another IP tries to request the page, a message is displayed that hints at the IP restriction. A robots.txt is also set so that Google Search never crawls/indexes the page itself.
-
-To solve, one must find a way to have Google request the page for them, such as by using Google Translate, the Google App Engine, or something like http://www.google.com/gwt/n?u=example.com
-
-- Tony
