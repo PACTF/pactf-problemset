@@ -1,0 +1,4 @@
+name: You are a square.
+points: 45
+description: It is a simple fact. If you want to solve this one, you gotta think like a [square]({% ctflexstatic 'But_a_flipped_square.txt' %}).
+hint: Be the square, invert your square!
