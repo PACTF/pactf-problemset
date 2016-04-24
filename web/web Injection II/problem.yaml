@@ -1,0 +1,8 @@
+name: SQL: The Sequel
+points: 40
+description: |
+  Dr. Miles looked at our stuff and decided to
+  [teach us a lesson](http://159.203.217.155/Injection2/). Unfortunately, he was
+  kind of in a rush and decided that the builtin PHP string escapes should be
+  enough. Is he right?
+hint: A quote is a quote, as PHP gloats!
