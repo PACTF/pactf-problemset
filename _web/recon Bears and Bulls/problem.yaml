@@ -1,0 +1,11 @@
+name: Bears and Bulls
+points: 10
+description: >
+  FlexCorp likes to dabble in the stock market. They have managed to keep their
+  investments off the books, but, vain as they are, they couldn't help but track
+  how popular their investments were being, tracking this in a CSV file titled
+  {% ctflexstatic 'interest.csv' %}, created in January 2004 and apparently
+  accessed monthly. Can you figure out their investments (separating them with
+  an underscore if necessary)?
+hint: >
+  Google is your best friend.
