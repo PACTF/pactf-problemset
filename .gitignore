@@ -1,11 +1,8 @@
-<<<<<<< HEAD
 # Added by Yatharth
 _unpublished/
 _static/
 
 __pycache__
-=======
 node_modules/
 npm-debug.log
 build/
->>>>>>> 82e8a363aed831097f2b4fc3cbc072ce0820a668

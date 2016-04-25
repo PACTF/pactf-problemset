@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # PACTF Problem Set 2016
 This repository contains the 2016 PACTF problem set.
 
@@ -9,14 +8,15 @@ This repository contains confidential and proprietary information. The unauthori
 
 ## Contributing
 By contributing to this repository, you understand and fully accept our [Contributor Agreement](CONTRIBUTING.md).
-=======
-# Heartbleed
+
+
+## Heartbleed
 
 Extracting server private key using [Heartbleed][0] OpenSSL vulnerability.
 
 NOTE: Pointing this tool at other people's servers is illegal in most countries.
 
-## How to use
+### How to use
 
 ```bash
 $ npm install -g heartbleed.js
@@ -63,4 +63,3 @@ OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
 USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 [0]: http://heartbleed.com/
->>>>>>> 82e8a363aed831097f2b4fc3cbc072ce0820a668
