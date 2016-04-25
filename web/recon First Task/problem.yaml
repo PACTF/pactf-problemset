@@ -1,4 +1,4 @@
 name: 'First Task'
 points: 10
-description: "What is [this]({% ctflexstatic 'picture.jpg' %})?"
+description: "What is [this]({% ctflexstatic 'picture-EYQGucDEEcJ2ePr8fz83.jpg' %})?"
 hint: "If you don't know what it is, then Google would be your best friend."

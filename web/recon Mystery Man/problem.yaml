@@ -1,4 +1,4 @@
 name: Mystery Man
 points: 40
-description: "I'm Tony Tan, and I often get weird emails. But I don't like the feels of [this one]({% ctflexstatic 'email.txt' %}), and I need to know who sent it."
+description: "I'm Tony Tan, and I often get weird emails. But I don't like the feels of [this one]({% ctflexstatic 'email-WTNk4Zn4ytCZ5fnr5Zyr.txt' %}), and I need to know who sent it."
 hint: "I want the sender's first name, middle initial, and last name. Don't email him though, because I don't want him finding out about this."

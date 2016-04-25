@@ -4,7 +4,7 @@ description: >
   FlexCorp likes to dabble in the stock market. They have managed to keep their
   investments off the books, but, vain as they are, they couldn't help but track
   how popular their investments were being, tracking this in a CSV file titled
-  [interest.csv]({% ctflexstatic 'interest.csv' %}), created in January 2004 and
+  [interest.csv]({% ctflexstatic 'interest-Sn5zYA7TyVXFcL9PgLLF.csv' %}), created in January 2004 and
   apparently accessed monthly. Can you figure out their investments (separating
   them with an underscore if necessary)?
 hint: >
