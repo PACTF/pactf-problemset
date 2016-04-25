@@ -1,4 +1,4 @@
 name: 'The Big Picture'
-points: 40
+points: 70
 description: "My friend often tells me that I am missing the [big picture]({% ctflexstatic 'image.jpg' %})."
 hint: 'No hint.'
