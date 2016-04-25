@@ -1,5 +1,5 @@
-    def grade(arg, key):
-        if "Jerome L. Waters" in key:
-            return True, "Got him."
-        else:
-            return False, "- Tony Z. Tan"
+def grade(arg, key):
+    if "jerome l. waters" in key.lower():
+        return True, "Got him."
+    else:
+        return False, "— Tony Z. Tan"
