@@ -1,9 +1,0 @@
- {	"name": "Lurking in Plain Sight",
-	"score": 30,
-	"category": "Recon",
-	"grader": "recon/Lurking In Plain Sight/grader.py",
-	"description": "<p>The flag is lurking in <a href=\"https://plain-sight.pactf.cf\">plain sight</a>.</p>",
-	"threshold": 0,
-	"weightmap": {},
-	"hint": "No hint."
- }
