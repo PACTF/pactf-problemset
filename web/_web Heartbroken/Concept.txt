@@ -11,3 +11,5 @@ installed on server 12 at
 Version is 1.0.1c
 
 /usr/local/nginx/sbin/nginx
+
+^ added this nginx to run on startup with /etc/rc.local
