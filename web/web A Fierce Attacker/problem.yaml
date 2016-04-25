@@ -1,0 +1,5 @@
+name: A Fierce Attacker
+points: 10
+description: Intelligence states that the flag is located on a server with the domain 'pactf.cf' on a secret sub-domain.  Can you find the correct sub-domain?
+hint: |
+  Take a guess. Or find someone fierce instead.
