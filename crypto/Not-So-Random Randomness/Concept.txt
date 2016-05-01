@@ -5,4 +5,8 @@ https://blog.benjojo.co.uk/post/auditing-github-users-keys
 http://www.theregister.co.uk/2008/05/21/massive_debian_openssl_hangover/
 https://certlogik.com/debian-weak-key-check/
 
+https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-0166
+https://github.com/g0tmi1k/debian-ssh
+D0n't_Always_TRusT_DaT_D3bian
+
 - Tony
