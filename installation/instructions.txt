@@ -21,17 +21,17 @@ PREFACE
 
 PREP SERVER
 
+  $ sudo su -
   # groupadd probs
-  # apt-get install python3-pip
-  # apt-get install supervisor
-  # apt-get install htop
+  # apt-get install python3-pip supervisor htop
 
 
-ROUND 1 : RSA2 / PHILLIPS DECRYPTION SERVICE (port 59292)
+ROUND 1 : RSA2 / PHILLIPS DECRYPTION SERVICE
 
-  # pip3 install Crypto
+  # pip3 install pycrypto
 
   # adduser rsa2
+  <enter YR5bMrJgJGVCyLPP4nBSCMfd at the password prompts>
   # usermod -a -G probs rsa2
   <copy rsa2 files into the home folder>
   # chown rsa2:probs /home/rsa2/*
@@ -51,9 +51,10 @@ ROUND 1 : RSA2 / PHILLIPS DECRYPTION SERVICE (port 59292)
 
   <take a break>
 
-ROUND 2 : OXYGEN / COALMINE (port 59293)
+ROUND 2 : OXYGEN / COALMINE
 
   # adduser oxygen
+  <enter YR5bMrJgJGVCyLPP4nBSCMfd at the password prompts>
   # usermod -a -G probs oxygen
   <copy oxygen files into the home folder>
   # chown oxygen:probs /home/oxygen/*
@@ -71,11 +72,12 @@ ROUND 2 : OXYGEN / COALMINE (port 59293)
   # supervisorctl update
   <test that problem is working>
 
-ROUND 2 : RANDOMGAME / GUESSING GAME (port 64753)
+ROUND 2 : RANDOMGAME / GUESSING GAME
 
   # apt-get install openjdk-7-jre
 
   # adduser randomgame
+  <enter YR5bMrJgJGVCyLPP4nBSCMfd at the password prompts>
   # usermod -a -G probs randomgame
   <copy randomgame files into the home folder>
   # chown randomgame:probs /home/randomgame/*
@@ -93,7 +95,7 @@ ROUND 2 : RANDOMGAME / GUESSING GAME (port 64753)
   # supervisorctl update
   <test that problem is working>
 
-ROUND 3 : INJECTIONS
+ROUND 3 : INJECTIONS / ES KYUU ELL + THE SEQUEL
 
   # apt-get install nginx php5-common php5-cli php5-fpm php5-mysql
 
