@@ -1,0 +1,137 @@
+PREFACE
+
+  This document explains how to install problems for PACTF 2016 on a server.
+
+  Lines beginning with '#' denote commands run with a root prompt.
+  Lines beginning with '$' denote commands run with a non-root shell.
+  (The user should be clear from context.)
+  Line surrounded with angle brackets denote human instructions.
+  (They are for you to interpret, not to type in.)
+  Curly braces denote variables you have to fill in for yourself.
+
+  Sometimes I will ask you to copy a file or some files.
+  Where from? From a Git repo with whose name I should have replace this text.
+
+  You don't need to put all the problems on the same server.
+  However, do follow the server prep instructions on all servers.
+
+  Good luck,
+  Yatharth <yatharth999@gmail.com>
+
+PREP SERVER
+
+  # groupadd probs
+  # apt-get install python3-pip
+  # apt-get install supervisor
+  # apt-get install htop
+
+
+ROUND 1 : RSA2 / PHILLIPS DECRYPTION SERVICE (port 59292)
+
+  # pip3 install Crypto
+
+  # adduser rsa2
+  # usermod -a -G probs rsa2
+  <copy rsa2 files into the home folder>
+  # chown rsa2:probs /home/rsa2/*
+
+  # echo {ip} > /home/rsa2/ip
+  # echo {port} > /home/rsa2/port
+
+  # su - rsa2
+  $ python3 server.py
+  <test that problem is working>
+  $ exit
+
+  # ln -s /home/rsa2/rsa2.supervisor.conf /etc/supervisor/conf.d/
+  # supervisorctl reread
+  # supervisorctl update
+  <test that problem is working>
+
+  <take a break>
+
+ROUND 2 : OXYGEN / COALMINE (port 59293)
+
+  # adduser oxygen
+  # usermod -a -G probs oxygen
+  <copy oxygen files into the home folder>
+  # chown oxygen:probs /home/oxygen/*
+
+  # echo {ip} > /home/oxygen/ip
+  # echo {port} > /home/oxygen/port
+
+  # su - oxygen
+  $ python3 ncserver.py /home/oxygen/oxygen
+  <test that problem is working>
+  $ exit
+
+  # ln -s /home/oxygen/oxygen.supervisor.conf /etc/supervisor/conf.d/
+  # supervisorctl reread
+  # supervisorctl update
+  <test that problem is working>
+
+ROUND 2 : RANDOMGAME / GUESSING GAME (port 64753)
+
+  # apt-get install openjdk-7-jre
+
+  # adduser randomgame
+  # usermod -a -G probs randomgame
+  <copy randomgame files into the home folder>
+  # chown randomgame:probs /home/randomgame/*
+
+  # echo {ip} > /home/randomgame/ip
+  # echo {port} > /home/randomgame/port
+
+  # su - randomgame
+  $ python3 ncserver.py
+  <test that problem is working>
+  $ exit
+
+  # ln -s /home/randomgame/randomgame.supervisor.conf /etc/supervisor/conf.d/
+  # supervisorctl reread
+  # supervisorctl update
+  <test that problem is working>
+
+ROUND 3 : INJECTIONS
+
+  # apt-get install nginx php5-common php5-cli php5-fpm php5-mysql
+
+  <copy the contents of the directory 'www' in the injections files into /var/www/>
+  <copy the file 'injections_nginx' in the injections files into /etc/nginx/sites-available>
+
+  # ln -s /etc/nginx/sites-available/injections_nginx /etc/nginx/sites-enabled/
+  # rm /etc/nginx/sites-enabled/default
+  # nginx -t
+  # service nginx reload
+  # service php5-fpm restart
+  <check if website works at / and /Injection1, noting that PHP doesn't work rn>
+
+  # apt-get install mysql-server
+  <enter ctvFzsOcRBvz0ZACAMpqzWWB at the password prompt>
+  <copy the files 'Injection1.sql' and 'Injection2.sql' to /root>
+  # mysql -u root -p
+  $ create user 'Injection1'@'localhost' identified by 'injection1';
+  $ create user 'Injection2'@'localhost' identified by 'injection2';
+  $ create database Injection1;
+  $ create database Injection2;
+  $ grant select on Injection1.* to 'Injection1';
+  $ grant select on Injection2.* to 'Injection2';
+  $ flush privileges;
+  $ exit
+  # mysql -u root -p Injection1 < /root/Injection1.sql
+  # mysql -u root -p Injection2 < /root/Injection2.sql
+
+  # service nginx reload
+  <check if website fully works at / and /Injection1>
+
+ROUND 3 : UNAUTHORIZED ACCESS
+
+  <wait for Tony to fill this in>
+
+ROUND 3 : LURKING IN PLAIN SIGHT
+
+  <wait for Tony to fill this in>
+
+ROUND 3 : HEARTBROKEN
+
+  <wait for Tony to fill this in>
