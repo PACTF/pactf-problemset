@@ -7,6 +7,6 @@ description: |
   way you could ever get that! Oh, if you're wondering, the server source can be
   found [here]({% ctflexstatic 'server.py' %})
 
-  `nc 198.211.110.148 59292`
+  `nc 104.236.80.81 52747`
 hint: |
   I wonder if we could just math out a way to get the original message?
