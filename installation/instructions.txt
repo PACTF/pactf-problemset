@@ -10,7 +10,8 @@ PREFACE
   Curly braces denote variables you have to fill in for yourself.
 
   Sometimes I will ask you to copy a file or some files.
-  Where from? From a Git repo with whose name I should have replace this text.
+  You can find them in appropriately named directories that live alongside
+  this instructions file that you are reading right now.
 
   You don't need to put all the problems on the same server.
   However, do follow the server prep instructions on all servers.
