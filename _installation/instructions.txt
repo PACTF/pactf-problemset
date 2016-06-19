@@ -13,8 +13,13 @@ PREFACE
   You can find them in appropriately named directories that live alongside
   this instructions file that you are reading right now.
 
+  Sometimes problems will need an IP do bind to.
+  Just note that if you supply a public IP (as you should),
+  then trying to connect as a client on the server itself to 127.0.0.1 won't work.
+
   You don't need to put all the problems on the same server.
   However, do follow the server prep instructions on all servers.
+  Do put Heartbroken on its own server.
 
   Good luck,
   Yatharth <yatharth999@gmail.com>
@@ -86,11 +91,32 @@ ROUND 2 : RANDOMGAME / GUESSING GAME
   # echo {port} > /home/randomgame/port
 
   # su - randomgame
-  $ python3 ncserver.py
+  $ python3 ncserver.py java RandomGame
   <test that problem is working>
   $ exit
 
   # ln -s /home/randomgame/randomgame.supervisor.conf /etc/supervisor/conf.d/
+  # supervisorctl reread
+  # supervisorctl update
+  <test that problem is working>
+
+ROUND 2 : PASSWORD GAME / SLIDING LETTER GAME
+
+  # adduser passwordgame
+  <enter YR5bMrJgJGVCyLPP4nBSCMfd at the password prompts>
+  # usermod -a -G probs passwordgame
+  <copy passwordgame files into the home folder>
+  # chown passwordgame:probs /home/passwordgame/*
+
+  # echo {ip} > /home/passwordgame/ip
+  # echo {port} > /home/passwordgame/port
+
+  # su - passwordgame
+  $ python3 ncserver.py /home/passwordgame/passwordgame
+  <test that problem is working>
+  $ exit
+
+  # ln -s /home/passwordgame/passwordgame.supervisor.conf /etc/supervisor/conf.d/
   # supervisorctl reread
   # supervisorctl update
   <test that problem is working>
