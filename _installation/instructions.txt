@@ -23,6 +23,7 @@ PREFACE
 
   Good luck,
   Yatharth <yatharth999@gmail.com>
+  Tony <tony@tonytan.io>
 
 PREP SERVER
 
@@ -158,7 +159,12 @@ ROUND 3 : UNAUTHORIZED ACCESS / LURKING IN PLAIN SIGHT
   # apt-get install nginx
   <copy the file 'default' in the recon files into /etc/nginx/sites-available>
   <copy/overwrite the contents of the directory 'html' in the recon files into /usr/share/nginx/html/>
+  
   # service nginx restart
+  <check if website fully works at / and /plain_sight/>
+  <at /, access should only be granted to Google IPs. Check using Google Translate>
+  </plain_sight/ should be public accessible, and it should send the header flag:i_found_a_header!>
+  <check for headers using Chrome Dev Tools or curl>
 
 ROUND 3 : HEARTBROKEN
 
