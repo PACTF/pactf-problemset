@@ -153,13 +153,12 @@ ROUND 3 : INJECTIONS / ES KYUU ELL + THE SEQUEL
   # service nginx reload
   <check if website fully works at / and /Injection1>
 
-ROUND 3 : UNAUTHORIZED ACCESS
+ROUND 3 : UNAUTHORIZED ACCESS / LURKING IN PLAIN SIGHT
 
-  <wait for Tony to fill this in>
-
-ROUND 3 : LURKING IN PLAIN SIGHT
-
-  <wait for Tony to fill this in>
+  # apt-get install nginx
+  <copy the file 'default' in the recon files into /etc/nginx/sites-available>
+  <copy/overwrite the contents of the directory 'html' in the recon files into /usr/share/nginx/html/>
+  # service nginx restart
 
 ROUND 3 : HEARTBROKEN
 
